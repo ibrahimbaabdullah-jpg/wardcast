@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wardcast"
+version = "1.0.0"
+description = "Reproducible NHS trust-level hospital capacity forecasting"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "MIT"
+dependencies = [
+  "numpy==2.2.6", "pandas==2.2.3", "duckdb==1.3.2", "pyarrow==20.0.0",
+  "scikit-learn==1.6.1", "lightgbm==4.6.0", "shap==0.48.0",
+  "fastapi==0.115.12", "uvicorn==0.34.2", "pydantic==2.11.5",
+  "openpyxl==3.1.5", "requests==2.32.4", "beautifulsoup4==4.13.4",
+  "joblib==1.5.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.5", "httpx==0.28.1", "ruff==0.11.13"]
+
+[project.scripts]
+wardcast = "wardcast.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+

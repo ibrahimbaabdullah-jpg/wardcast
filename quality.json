@@ -1,0 +1,518 @@
+{
+  "cohort": "Provider trusts with a Type 1 A&E department in each source month",
+  "rows": 5873,
+  "trusts": 124,
+  "months": 48,
+  "data_start": "2022-04-01",
+  "data_end": "2026-03-01",
+  "status_counts": {
+    "observed": 5769,
+    "zero_capacity": 101,
+    "occupied_exceeds_available": 2,
+    "missing": 1
+  },
+  "missing_values": {
+    "occupied": 1,
+    "available": 1
+  },
+  "name_variants": {
+    "R0A": [
+      "MANCHESTER UNIVERSITY NHS FOUNDATION TRUST",
+      "Manchester University NHS Foundation Trust"
+    ],
+    "R0B": [
+      "SOUTH TYNESIDE AND SUNDERLAND NHS FOUNDATION TRUST",
+      "South Tyneside and Sunderland NHS Foundation Trust"
+    ],
+    "R0D": [
+      "UNIVERSITY HOSPITALS DORSET NHS FOUNDATION TRUST",
+      "University Hospitals Dorset NHS Foundation Trust"
+    ],
+    "R1F": [
+      "ISLE OF WIGHT NHS TRUST",
+      "Isle of Wight NHS Trust"
+    ],
+    "R1H": [
+      "BARTS HEALTH NHS TRUST",
+      "Barts Health NHS Trust"
+    ],
+    "R1K": [
+      "LONDON NORTH WEST UNIVERSITY HEALTHCARE NHS TRUST",
+      "London North West University Healthcare NHS Trust"
+    ],
+    "RA2": [
+      "ROYAL SURREY COUNTY HOSPITAL NHS FOUNDATION TRUST",
+      "Royal Surrey County Hospital NHS Foundation Trust"
+    ],
+    "RA7": [
+      "UNIVERSITY HOSPITALS BRISTOL AND WESTON NHS FOUNDATION TRUST",
+      "University Hospitals Bristol and Weston NHS Foundation Trust"
+    ],
+    "RA9": [
+      "TORBAY AND SOUTH DEVON NHS FOUNDATION TRUST",
+      "Torbay and South Devon NHS Foundation Trust"
+    ],
+    "RAE": [
+      "BRADFORD TEACHING HOSPITALS NHS FOUNDATION TRUST",
+      "Bradford Teaching Hospitals NHS Foundation Trust"
+    ],
+    "RAJ": [
+      "MID AND SOUTH ESSEX NHS FOUNDATION TRUST",
+      "Mid and South Essex NHS Foundation Trust"
+    ],
+    "RAL": [
+      "ROYAL FREE LONDON NHS FOUNDATION TRUST",
+      "Royal Free London NHS Foundation Trust"
+    ],
+    "RAP": [
+      "NORTH MIDDLESEX UNIVERSITY HOSPITAL NHS TRUST",
+      "North Middlesex University Hospital NHS Trust"
+    ],
+    "RAS": [
+      "THE HILLINGDON HOSPITALS NHS FOUNDATION TRUST",
+      "The Hillingdon Hospitals NHS Foundation Trust"
+    ],
+    "RAX": [
+      "KINGSTON HOSPITAL NHS FOUNDATION TRUST",
+      "Kingston Hospital NHS Foundation Trust"
+    ],
+    "RBD": [
+      "DORSET COUNTY HOSPITAL NHS FOUNDATION TRUST",
+      "Dorset County Hospital NHS Foundation Trust"
+    ],
+    "RBK": [
+      "WALSALL HEALTHCARE NHS TRUST",
+      "Walsall Healthcare NHS Trust"
+    ],
+    "RBL": [
+      "WIRRAL UNIVERSITY TEACHING HOSPITAL NHS FOUNDATION TRUST",
+      "Wirral University Teaching Hospital NHS Foundation Trust"
+    ],
+    "RBN": [
+      "MERSEY AND WEST LANCASHIRE TEACHING HOSPITALS NHS TRUST",
+      "Mersey and West Lancashire Teaching Hospitals NHS Trust",
+      "ST HELENS AND KNOWSLEY TEACHING HOSPITALS NHS TRUST",
+      "St Helens and Knowsley Teaching Hospitals NHS Trust"
+    ],
+    "RBS": [
+      "ALDER HEY CHILDREN'S NHS FOUNDATION TRUST",
+      "Alder Hey Children's NHS Foundation Trust"
+    ],
+    "RBT": [
+      "MID CHESHIRE HOSPITALS NHS FOUNDATION TRUST",
+      "Mid Cheshire Hospitals NHS Foundation Trust"
+    ],
+    "RC9": [
+      "BEDFORDSHIRE HOSPITALS NHS FOUNDATION TRUST",
+      "Bedfordshire Hospitals NHS Foundation Trust"
+    ],
+    "RCB": [
+      "YORK AND SCARBOROUGH TEACHING HOSPITALS NHS FOUNDATION TRUST",
+      "York and Scarborough Teaching Hospitals NHS Foundation Trust"
+    ],
+    "RCD": [
+      "HARROGATE AND DISTRICT NHS FOUNDATION TRUST",
+      "Harrogate and District NHS Foundation Trust"
+    ],
+    "RCF": [
+      "AIREDALE NHS FOUNDATION TRUST",
+      "Airedale NHS Foundation Trust"
+    ],
+    "RCU": [
+      "SHEFFIELD CHILDREN'S NHS FOUNDATION TRUST",
+      "Sheffield Children's NHS Foundation Trust"
+    ],
+    "RCX": [
+      "THE QUEEN ELIZABETH HOSPITAL, KING'S LYNN, NHS FOUNDATION TRUST",
+      "The Queen Elizabeth Hospital, King's Lynn, NHS Foundation Trust"
+    ],
+    "RD1": [
+      "ROYAL UNITED HOSPITALS BATH NHS FOUNDATION TRUST",
+      "Royal United Hospitals Bath NHS Foundation Trust"
+    ],
+    "RD8": [
+      "MILTON KEYNES UNIVERSITY HOSPITAL NHS FOUNDATION TRUST",
+      "Milton Keynes University Hospital NHS Foundation Trust"
+    ],
+    "RDE": [
+      "EAST SUFFOLK AND NORTH ESSEX NHS FOUNDATION TRUST",
+      "East Suffolk and North Essex NHS Foundation Trust"
+    ],
+    "RDU": [
+      "FRIMLEY HEALTH NHS FOUNDATION TRUST",
+      "Frimley Health NHS Foundation Trust"
+    ],
+    "REF": [
+      "ROYAL CORNWALL HOSPITALS NHS TRUST",
+      "Royal Cornwall Hospitals NHS Trust"
+    ],
+    "REM": [
+      "LIVERPOOL UNIVERSITY HOSPITALS NHS FOUNDATION TRUST",
+      "Liverpool University Hospitals NHS Foundation Trust"
+    ],
+    "RF4": [
+      "BARKING, HAVERING AND REDBRIDGE UNIVERSITY HOSPITALS NHS TRUST",
+      "Barking, Havering and Redbridge University Hospitals NHS Trust"
+    ],
+    "RFF": [
+      "BARNSLEY HOSPITAL NHS FOUNDATION TRUST",
+      "Barnsley Hospital NHS Foundation Trust"
+    ],
+    "RFR": [
+      "THE ROTHERHAM NHS FOUNDATION TRUST",
+      "The Rotherham NHS Foundation Trust"
+    ],
+    "RFS": [
+      "CHESTERFIELD ROYAL HOSPITAL NHS FOUNDATION TRUST",
+      "Chesterfield Royal Hospital NHS Foundation Trust"
+    ],
+    "RGN": [
+      "NORTH WEST ANGLIA NHS FOUNDATION TRUST",
+      "North West Anglia NHS Foundation Trust"
+    ],
+    "RGP": [
+      "JAMES PAGET UNIVERSITY HOSPITALS NHS FOUNDATION TRUST",
+      "James Paget University Hospitals NHS Foundation Trust"
+    ],
+    "RGR": [
+      "WEST SUFFOLK NHS FOUNDATION TRUST",
+      "West Suffolk NHS Foundation Trust"
+    ],
+    "RGT": [
+      "CAMBRIDGE UNIVERSITY HOSPITALS NHS FOUNDATION TRUST",
+      "Cambridge University Hospitals NHS Foundation Trust"
+    ],
+    "RH5": [
+      "SOMERSET NHS FOUNDATION TRUST",
+      "Somerset NHS Foundation Trust"
+    ],
+    "RH8": [
+      "ROYAL DEVON UNIVERSITY HEALTHCARE NHS FOUNDATION TRUST",
+      "Royal Devon University Healthcare NHS Foundation Trust"
+    ],
+    "RHM": [
+      "UNIVERSITY HOSPITAL SOUTHAMPTON NHS FOUNDATION TRUST",
+      "University Hospital Southampton NHS Foundation Trust"
+    ],
+    "RHQ": [
+      "SHEFFIELD TEACHING HOSPITALS NHS FOUNDATION TRUST",
+      "Sheffield Teaching Hospitals NHS Foundation Trust"
+    ],
+    "RHU": [
+      "PORTSMOUTH HOSPITALS UNIVERSITY NATIONAL HEALTH SERVICE TRUST",
+      "Portsmouth Hospitals University National Health Service Trust"
+    ],
+    "RHW": [
+      "ROYAL BERKSHIRE NHS FOUNDATION TRUST",
+      "Royal Berkshire NHS Foundation Trust"
+    ],
+    "RJ1": [
+      "GUY'S AND ST THOMAS' NHS FOUNDATION TRUST",
+      "Guy's and St Thomas' NHS Foundation Trust"
+    ],
+    "RJ2": [
+      "LEWISHAM AND GREENWICH NHS TRUST",
+      "Lewisham and Greenwich NHS Trust"
+    ],
+    "RJ6": [
+      "CROYDON HEALTH SERVICES NHS TRUST",
+      "Croydon Health Services NHS Trust"
+    ],
+    "RJ7": [
+      "ST GEORGE'S UNIVERSITY HOSPITALS NHS FOUNDATION TRUST",
+      "St George's University Hospitals NHS Foundation Trust"
+    ],
+    "RJC": [
+      "SOUTH WARWICKSHIRE NHS FOUNDATION TRUST",
+      "South Warwickshire NHS Foundation Trust"
+    ],
+    "RJE": [
+      "UNIVERSITY HOSPITALS OF NORTH MIDLANDS NHS TRUST",
+      "University Hospitals of North Midlands NHS Trust"
+    ],
+    "RJL": [
+      "NORTHERN LINCOLNSHIRE AND GOOLE NHS FOUNDATION TRUST",
+      "Northern Lincolnshire and Goole NHS Foundation Trust"
+    ],
+    "RJN": [
+      "EAST CHESHIRE NHS TRUST",
+      "East Cheshire NHS Trust"
+    ],
+    "RJR": [
+      "COUNTESS OF CHESTER HOSPITAL NHS FOUNDATION TRUST",
+      "Countess of Chester Hospital NHS Foundation Trust"
+    ],
+    "RJZ": [
+      "KING'S COLLEGE HOSPITAL NHS FOUNDATION TRUST",
+      "King's College Hospital NHS Foundation Trust"
+    ],
+    "RK5": [
+      "SHERWOOD FOREST HOSPITALS NHS FOUNDATION TRUST",
+      "Sherwood Forest Hospitals NHS Foundation Trust"
+    ],
+    "RK9": [
+      "UNIVERSITY HOSPITALS PLYMOUTH NHS TRUST",
+      "University Hospitals Plymouth NHS Trust"
+    ],
+    "RKB": [
+      "UNIVERSITY HOSPITALS COVENTRY AND WARWICKSHIRE NHS TRUST",
+      "University Hospitals Coventry and Warwickshire NHS Trust"
+    ],
+    "RKE": [
+      "WHITTINGTON HEALTH NHS TRUST",
+      "Whittington Health NHS Trust"
+    ],
+    "RL4": [
+      "THE ROYAL WOLVERHAMPTON NHS TRUST",
+      "The Royal Wolverhampton NHS Trust"
+    ],
+    "RLQ": [
+      "WYE VALLEY NHS TRUST",
+      "Wye Valley NHS Trust"
+    ],
+    "RLT": [
+      "GEORGE ELIOT HOSPITAL NHS TRUST",
+      "George Eliot Hospital NHS Trust"
+    ],
+    "RM1": [
+      "NORFOLK AND NORWICH UNIVERSITY HOSPITALS NHS FOUNDATION TRUST",
+      "Norfolk and Norwich University Hospitals NHS Foundation Trust"
+    ],
+    "RM3": [
+      "NORTHERN CARE ALLIANCE NHS FT",
+      "Northern Care Alliance NHS Ft"
+    ],
+    "RMC": [
+      "BOLTON NHS FOUNDATION TRUST",
+      "Bolton NHS Foundation Trust"
+    ],
+    "RMP": [
+      "TAMESIDE AND GLOSSOP INTEGRATED CARE NHS FOUNDATION TRUST",
+      "Tameside and Glossop Integrated Care NHS Foundation Trust"
+    ],
+    "RN3": [
+      "GREAT WESTERN HOSPITALS NHS FOUNDATION TRUST",
+      "Great Western Hospitals NHS Foundation Trust"
+    ],
+    "RN5": [
+      "HAMPSHIRE HOSPITALS NHS FOUNDATION TRUST",
+      "Hampshire Hospitals NHS Foundation Trust"
+    ],
+    "RN7": [
+      "DARTFORD AND GRAVESHAM NHS TRUST",
+      "Dartford and Gravesham NHS Trust"
+    ],
+    "RNA": [
+      "THE DUDLEY GROUP NHS FOUNDATION TRUST",
+      "The Dudley Group NHS Foundation Trust"
+    ],
+    "RNN": [
+      "NORTH CUMBRIA INTEGRATED CARE NHS FOUNDATION TRUST",
+      "North Cumbria Integrated Care NHS Foundation Trust"
+    ],
+    "RNQ": [
+      "KETTERING GENERAL HOSPITAL NHS FOUNDATION TRUST",
+      "Kettering General Hospital NHS Foundation Trust"
+    ],
+    "RNS": [
+      "NORTHAMPTON GENERAL HOSPITAL NHS TRUST",
+      "Northampton General Hospital NHS Trust"
+    ],
+    "RNZ": [
+      "SALISBURY NHS FOUNDATION TRUST",
+      "Salisbury NHS Foundation Trust"
+    ],
+    "RP5": [
+      "DONCASTER AND BASSETLAW TEACHING HOSPITALS NHS FOUNDATION TRUST",
+      "Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust"
+    ],
+    "RPA": [
+      "MEDWAY NHS FOUNDATION TRUST",
+      "Medway NHS Foundation Trust"
+    ],
+    "RQ3": [
+      "BIRMINGHAM WOMEN'S AND CHILDREN'S NHS FOUNDATION TRUST",
+      "Birmingham Women's and Children's NHS Foundation Trust"
+    ],
+    "RQM": [
+      "CHELSEA AND WESTMINSTER HOSPITAL NHS FOUNDATION TRUST",
+      "Chelsea and Westminster Hospital NHS Foundation Trust"
+    ],
+    "RQW": [
+      "THE PRINCESS ALEXANDRA HOSPITAL NHS TRUST",
+      "The Princess Alexandra Hospital NHS Trust"
+    ],
+    "RQX": [
+      "HOMERTON HEALTHCARE NHS FOUNDATION TRUST",
+      "Homerton Healthcare NHS Foundation Trust",
+      "Homerton University Hospital NHS Foundation Trust"
+    ],
+    "RR7": [
+      "GATESHEAD HEALTH NHS FOUNDATION TRUST",
+      "Gateshead Health NHS Foundation Trust"
+    ],
+    "RR8": [
+      "LEEDS TEACHING HOSPITALS NHS TRUST",
+      "Leeds Teaching Hospitals NHS Trust"
+    ],
+    "RRF": [
+      "WRIGHTINGTON, WIGAN AND LEIGH NHS FOUNDATION TRUST",
+      "Wrightington, Wigan and Leigh NHS Foundation Trust"
+    ],
+    "RRK": [
+      "UNIVERSITY HOSPITALS BIRMINGHAM NHS FOUNDATION TRUST",
+      "University Hospitals Birmingham NHS Foundation Trust"
+    ],
+    "RRV": [
+      "UNIVERSITY COLLEGE LONDON HOSPITALS NHS FOUNDATION TRUST",
+      "University College London Hospitals NHS Foundation Trust"
+    ],
+    "RTD": [
+      "THE NEWCASTLE UPON TYNE HOSPITALS NHS FOUNDATION TRUST",
+      "The Newcastle Upon Tyne Hospitals NHS Foundation Trust"
+    ],
+    "RTE": [
+      "GLOUCESTERSHIRE HOSPITALS NHS FOUNDATION TRUST",
+      "Gloucestershire Hospitals NHS Foundation Trust"
+    ],
+    "RTF": [
+      "NORTHUMBRIA HEALTHCARE NHS FOUNDATION TRUST",
+      "Northumbria Healthcare NHS Foundation Trust"
+    ],
+    "RTG": [
+      "UNIVERSITY HOSPITALS OF DERBY AND BURTON NHS FOUNDATION TRUST",
+      "University Hospitals of Derby and Burton NHS Foundation Trust"
+    ],
+    "RTH": [
+      "OXFORD UNIVERSITY HOSPITALS NHS FOUNDATION TRUST",
+      "Oxford University Hospitals NHS Foundation Trust"
+    ],
+    "RTK": [
+      "ASHFORD AND ST PETER'S HOSPITALS NHS FOUNDATION TRUST",
+      "Ashford and St Peter's Hospitals NHS Foundation Trust"
+    ],
+    "RTP": [
+      "SURREY AND SUSSEX HEALTHCARE NHS TRUST",
+      "Surrey and Sussex Healthcare NHS Trust"
+    ],
+    "RTR": [
+      "SOUTH TEES HOSPITALS NHS FOUNDATION TRUST",
+      "South Tees Hospitals NHS Foundation Trust"
+    ],
+    "RTX": [
+      "UNIVERSITY HOSPITALS OF MORECAMBE BAY NHS FOUNDATION TRUST",
+      "University Hospitals of Morecambe Bay NHS Foundation Trust"
+    ],
+    "RVJ": [
+      "NORTH BRISTOL NHS TRUST",
+      "North Bristol NHS Trust"
+    ],
+    "RVR": [
+      "EPSOM AND ST HELIER UNIVERSITY HOSPITALS NHS TRUST",
+      "Epsom and St Helier University Hospitals NHS Trust"
+    ],
+    "RVV": [
+      "EAST KENT HOSPITALS UNIVERSITY NHS FOUNDATION TRUST",
+      "East Kent Hospitals University NHS Foundation Trust"
+    ],
+    "RVW": [
+      "NORTH TEES AND HARTLEPOOL NHS FOUNDATION TRUST",
+      "North Tees and Hartlepool NHS Foundation Trust"
+    ],
+    "RVY": [
+      "SOUTHPORT AND ORMSKIRK HOSPITAL NHS TRUST",
+      "Southport and Ormskirk Hospital NHS Trust"
+    ],
+    "RWA": [
+      "HULL UNIVERSITY TEACHING HOSPITALS NHS TRUST",
+      "Hull University Teaching Hospitals NHS Trust"
+    ],
+    "RWD": [
+      "UNITED LINCOLNSHIRE HOSPITALS NHS TRUST",
+      "United Lincolnshire Hospitals NHS Trust"
+    ],
+    "RWE": [
+      "UNIVERSITY HOSPITALS OF LEICESTER NHS TRUST",
+      "University Hospitals of Leicester NHS Trust"
+    ],
+    "RWF": [
+      "MAIDSTONE AND TUNBRIDGE WELLS NHS TRUST",
+      "Maidstone and Tunbridge Wells NHS Trust"
+    ],
+    "RWG": [
+      "WEST HERTFORDSHIRE TEACHING HOSPITALS NHS TRUST",
+      "West Hertfordshire Teaching Hospitals NHS Trust"
+    ],
+    "RWH": [
+      "EAST AND NORTH HERTFORDSHIRE NHS TRUST",
+      "East and North Hertfordshire NHS Trust"
+    ],
+    "RWJ": [
+      "STOCKPORT NHS FOUNDATION TRUST",
+      "Stockport NHS Foundation Trust"
+    ],
+    "RWP": [
+      "WORCESTERSHIRE ACUTE HOSPITALS NHS TRUST",
+      "Worcestershire Acute Hospitals NHS Trust"
+    ],
+    "RWW": [
+      "WARRINGTON AND HALTON TEACHING HOSPITALS NHS FOUNDATION TRUST",
+      "Warrington and Halton Teaching Hospitals NHS Foundation Trust"
+    ],
+    "RWY": [
+      "CALDERDALE AND HUDDERSFIELD NHS FOUNDATION TRUST",
+      "Calderdale and Huddersfield NHS Foundation Trust"
+    ],
+    "RX1": [
+      "NOTTINGHAM UNIVERSITY HOSPITALS NHS TRUST",
+      "Nottingham University Hospitals NHS Trust"
+    ],
+    "RXC": [
+      "EAST SUSSEX HEALTHCARE NHS TRUST",
+      "East Sussex Healthcare NHS Trust"
+    ],
+    "RXF": [
+      "MID YORKSHIRE HOSPITALS NHS TRUST",
+      "Mid Yorkshire Hospitals NHS Trust"
+    ],
+    "RXK": [
+      "SANDWELL AND WEST BIRMINGHAM HOSPITALS NHS TRUST",
+      "Sandwell and West Birmingham Hospitals NHS Trust"
+    ],
+    "RXL": [
+      "BLACKPOOL TEACHING HOSPITALS NHS FOUNDATION TRUST",
+      "Blackpool Teaching Hospitals NHS Foundation Trust"
+    ],
+    "RXN": [
+      "LANCASHIRE TEACHING HOSPITALS NHS FOUNDATION TRUST",
+      "Lancashire Teaching Hospitals NHS Foundation Trust"
+    ],
+    "RXP": [
+      "COUNTY DURHAM AND DARLINGTON NHS FOUNDATION TRUST",
+      "County Durham and Darlington NHS Foundation Trust"
+    ],
+    "RXQ": [
+      "BUCKINGHAMSHIRE HEALTHCARE NHS TRUST",
+      "Buckinghamshire Healthcare NHS Trust"
+    ],
+    "RXR": [
+      "EAST LANCASHIRE HOSPITALS NHS TRUST",
+      "East Lancashire Hospitals NHS Trust"
+    ],
+    "RXW": [
+      "THE SHREWSBURY AND TELFORD HOSPITAL NHS TRUST",
+      "The Shrewsbury and Telford Hospital NHS Trust"
+    ],
+    "RYJ": [
+      "IMPERIAL COLLEGE HEALTHCARE NHS TRUST",
+      "Imperial College Healthcare NHS Trust"
+    ],
+    "RYR": [
+      "UNIVERSITY HOSPITALS SUSSEX NHS FOUNDATION TRUST",
+      "University Hospitals Sussex NHS Foundation Trust"
+    ]
+  },
+  "series_policy": "No code merging. Gaps are null; discontinued series retain their end date. Names may change within a code.",
+  "definition": "Monthly average daily occupied/available adult general and acute beds; not daily peaks or unmet demand.",
+  "vintage_note": "Latest revised publications available when retrieved, not original point-in-time vintages. Retrospective monthly-observation simulation."
+}

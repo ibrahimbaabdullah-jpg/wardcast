@@ -1,0 +1,3636 @@
+{
+  "comparison": [
+    {
+      "split": "development",
+      "horizon": 1,
+      "model": "lightgbm",
+      "mae": 11.772251,
+      "wape": 1.573921,
+      "coverage": 0.767247,
+      "mean_interval_width": 33.556538,
+      "n": 1435
+    },
+    {
+      "split": "development",
+      "horizon": 1,
+      "model": "persistence",
+      "mae": 13.020209,
+      "wape": 1.74077,
+      "coverage": 0.831359,
+      "mean_interval_width": 47.675889,
+      "n": 1435
+    },
+    {
+      "split": "development",
+      "horizon": 1,
+      "model": "ridge",
+      "mae": 12.891024,
+      "wape": 1.723499,
+      "coverage": 0.852265,
+      "mean_interval_width": 49.578241,
+      "n": 1435
+    },
+    {
+      "split": "development",
+      "horizon": 1,
+      "model": "seasonal_naive",
+      "mae": 29.648084,
+      "wape": 3.963877,
+      "coverage": 0.776307,
+      "mean_interval_width": 92.418236,
+      "n": 1435
+    },
+    {
+      "split": "development",
+      "horizon": 1,
+      "model": "trailing_mean",
+      "mae": 15.67108,
+      "wape": 2.095185,
+      "coverage": 0.839721,
+      "mean_interval_width": 58.061884,
+      "n": 1435
+    },
+    {
+      "split": "development",
+      "horizon": 2,
+      "model": "lightgbm",
+      "mae": 15.470241,
+      "wape": 2.069615,
+      "coverage": 0.780228,
+      "mean_interval_width": 43.418235,
+      "n": 1315
+    },
+    {
+      "split": "development",
+      "horizon": 2,
+      "model": "persistence",
+      "mae": 18.860837,
+      "wape": 2.523211,
+      "coverage": 0.843346,
+      "mean_interval_width": 68.350196,
+      "n": 1315
+    },
+    {
+      "split": "development",
+      "horizon": 2,
+      "model": "ridge",
+      "mae": 17.333041,
+      "wape": 2.318822,
+      "coverage": 0.862357,
+      "mean_interval_width": 69.388366,
+      "n": 1315
+    },
+    {
+      "split": "development",
+      "horizon": 2,
+      "model": "seasonal_naive",
+      "mae": 28.968061,
+      "wape": 3.875359,
+      "coverage": 0.778707,
+      "mean_interval_width": 91.144918,
+      "n": 1315
+    },
+    {
+      "split": "development",
+      "horizon": 2,
+      "model": "trailing_mean",
+      "mae": 20.31052,
+      "wape": 2.71715,
+      "coverage": 0.858555,
+      "mean_interval_width": 77.417225,
+      "n": 1315
+    },
+    {
+      "split": "development",
+      "horizon": 3,
+      "model": "lightgbm",
+      "mae": 17.985915,
+      "wape": 2.405344,
+      "coverage": 0.798326,
+      "mean_interval_width": 50.889208,
+      "n": 1195
+    },
+    {
+      "split": "development",
+      "horizon": 3,
+      "model": "persistence",
+      "mae": 21.925523,
+      "wape": 2.932207,
+      "coverage": 0.879498,
+      "mean_interval_width": 86.35281,
+      "n": 1195
+    },
+    {
+      "split": "development",
+      "horizon": 3,
+      "model": "ridge",
+      "mae": 19.121927,
+      "wape": 2.557268,
+      "coverage": 0.867782,
+      "mean_interval_width": 78.324087,
+      "n": 1195
+    },
+    {
+      "split": "development",
+      "horizon": 3,
+      "model": "seasonal_naive",
+      "mae": 28.768201,
+      "wape": 3.847312,
+      "coverage": 0.777406,
+      "mean_interval_width": 90.239133,
+      "n": 1195
+    },
+    {
+      "split": "development",
+      "horizon": 3,
+      "model": "trailing_mean",
+      "mae": 24.316318,
+      "wape": 3.25194,
+      "coverage": 0.876151,
+      "mean_interval_width": 96.58002,
+      "n": 1195
+    },
+    {
+      "split": "test",
+      "horizon": 1,
+      "model": "lightgbm",
+      "mae": 12.507539,
+      "wape": 1.674239,
+      "coverage": 0.758403,
+      "mean_interval_width": 33.781877,
+      "n": 1428
+    },
+    {
+      "split": "test",
+      "horizon": 1,
+      "model": "persistence",
+      "mae": 14.763305,
+      "wape": 1.976192,
+      "coverage": 0.738796,
+      "mean_interval_width": 42.729372,
+      "n": 1428
+    },
+    {
+      "split": "test",
+      "horizon": 1,
+      "model": "ridge",
+      "mae": 14.02162,
+      "wape": 1.876911,
+      "coverage": 0.768908,
+      "mean_interval_width": 42.57896,
+      "n": 1428
+    },
+    {
+      "split": "test",
+      "horizon": 1,
+      "model": "seasonal_naive",
+      "mae": 26.313025,
+      "wape": 3.522219,
+      "coverage": 0.854342,
+      "mean_interval_width": 97.069475,
+      "n": 1428
+    },
+    {
+      "split": "test",
+      "horizon": 1,
+      "model": "trailing_mean",
+      "mae": 16.449346,
+      "wape": 2.201883,
+      "coverage": 0.764706,
+      "mean_interval_width": 52.217017,
+      "n": 1428
+    },
+    {
+      "split": "test",
+      "horizon": 2,
+      "model": "lightgbm",
+      "mae": 15.562223,
+      "wape": 2.084424,
+      "coverage": 0.762414,
+      "mean_interval_width": 43.454594,
+      "n": 1309
+    },
+    {
+      "split": "test",
+      "horizon": 2,
+      "model": "persistence",
+      "mae": 19.727273,
+      "wape": 2.642296,
+      "coverage": 0.754011,
+      "mean_interval_width": 60.190677,
+      "n": 1309
+    },
+    {
+      "split": "test",
+      "horizon": 2,
+      "model": "ridge",
+      "mae": 17.990902,
+      "wape": 2.409724,
+      "coverage": 0.776165,
+      "mean_interval_width": 56.257603,
+      "n": 1309
+    },
+    {
+      "split": "test",
+      "horizon": 2,
+      "model": "seasonal_naive",
+      "mae": 26.038197,
+      "wape": 3.487589,
+      "coverage": 0.855615,
+      "mean_interval_width": 96.204975,
+      "n": 1309
+    },
+    {
+      "split": "test",
+      "horizon": 2,
+      "model": "trailing_mean",
+      "mae": 19.877769,
+      "wape": 2.662454,
+      "coverage": 0.770817,
+      "mean_interval_width": 65.067666,
+      "n": 1309
+    },
+    {
+      "split": "test",
+      "horizon": 3,
+      "model": "lightgbm",
+      "mae": 17.119447,
+      "wape": 2.293359,
+      "coverage": 0.794118,
+      "mean_interval_width": 50.558747,
+      "n": 1190
+    },
+    {
+      "split": "test",
+      "horizon": 3,
+      "model": "persistence",
+      "mae": 20.711765,
+      "wape": 2.774594,
+      "coverage": 0.786555,
+      "mean_interval_width": 69.743304,
+      "n": 1190
+    },
+    {
+      "split": "test",
+      "horizon": 3,
+      "model": "ridge",
+      "mae": 18.368267,
+      "wape": 2.460654,
+      "coverage": 0.778992,
+      "mean_interval_width": 60.827461,
+      "n": 1190
+    },
+    {
+      "split": "test",
+      "horizon": 3,
+      "model": "seasonal_naive",
+      "mae": 26.057983,
+      "wape": 3.490786,
+      "coverage": 0.853782,
+      "mean_interval_width": 95.222857,
+      "n": 1190
+    },
+    {
+      "split": "test",
+      "horizon": 3,
+      "model": "trailing_mean",
+      "mae": 22.22409,
+      "wape": 2.977189,
+      "coverage": 0.795798,
+      "mean_interval_width": 76.34972,
+      "n": 1190
+    }
+  ],
+  "by_trust": [
+    {
+      "code": "R0A",
+      "horizon": 1,
+      "mae": 28.648175,
+      "wape": 1.615954,
+      "coverage": 0.416667,
+      "mean_interval_width": 51.457696,
+      "n": 12
+    },
+    {
+      "code": "R0A",
+      "horizon": 2,
+      "mae": 39.051309,
+      "wape": 2.210376,
+      "coverage": 0.454545,
+      "mean_interval_width": 67.860618,
+      "n": 11
+    },
+    {
+      "code": "R0A",
+      "horizon": 3,
+      "mae": 42.175904,
+      "wape": 2.394318,
+      "coverage": 0.6,
+      "mean_interval_width": 81.505076,
+      "n": 10
+    },
+    {
+      "code": "R0B",
+      "horizon": 1,
+      "mae": 19.427972,
+      "wape": 2.014827,
+      "coverage": 0.666667,
+      "mean_interval_width": 49.45409,
+      "n": 12
+    },
+    {
+      "code": "R0B",
+      "horizon": 2,
+      "mae": 13.778437,
+      "wape": 1.430243,
+      "coverage": 0.818182,
+      "mean_interval_width": 62.476334,
+      "n": 11
+    },
+    {
+      "code": "R0B",
+      "horizon": 3,
+      "mae": 16.492126,
+      "wape": 1.709206,
+      "coverage": 0.9,
+      "mean_interval_width": 68.296271,
+      "n": 10
+    },
+    {
+      "code": "R0D",
+      "horizon": 1,
+      "mae": 13.734835,
+      "wape": 1.401991,
+      "coverage": 0.833333,
+      "mean_interval_width": 42.732618,
+      "n": 12
+    },
+    {
+      "code": "R0D",
+      "horizon": 2,
+      "mae": 16.637038,
+      "wape": 1.703821,
+      "coverage": 0.818182,
+      "mean_interval_width": 56.372103,
+      "n": 11
+    },
+    {
+      "code": "R0D",
+      "horizon": 3,
+      "mae": 17.676131,
+      "wape": 1.814984,
+      "coverage": 0.9,
+      "mean_interval_width": 65.655861,
+      "n": 10
+    },
+    {
+      "code": "R1F",
+      "horizon": 1,
+      "mae": 10.468559,
+      "wape": 3.924483,
+      "coverage": 0.75,
+      "mean_interval_width": 23.694169,
+      "n": 12
+    },
+    {
+      "code": "R1F",
+      "horizon": 2,
+      "mae": 13.655609,
+      "wape": 5.201236,
+      "coverage": 0.636364,
+      "mean_interval_width": 30.404178,
+      "n": 11
+    },
+    {
+      "code": "R1F",
+      "horizon": 3,
+      "mae": 15.999119,
+      "wape": 6.162989,
+      "coverage": 0.8,
+      "mean_interval_width": 34.473696,
+      "n": 10
+    },
+    {
+      "code": "R1H",
+      "horizon": 1,
+      "mae": 13.259237,
+      "wape": 0.973691,
+      "coverage": 0.833333,
+      "mean_interval_width": 51.821595,
+      "n": 12
+    },
+    {
+      "code": "R1H",
+      "horizon": 2,
+      "mae": 20.951133,
+      "wape": 1.541143,
+      "coverage": 0.636364,
+      "mean_interval_width": 64.826689,
+      "n": 11
+    },
+    {
+      "code": "R1H",
+      "horizon": 3,
+      "mae": 25.091644,
+      "wape": 1.847963,
+      "coverage": 0.8,
+      "mean_interval_width": 75.698067,
+      "n": 10
+    },
+    {
+      "code": "R1K",
+      "horizon": 1,
+      "mae": 8.366458,
+      "wape": 0.832138,
+      "coverage": 1.0,
+      "mean_interval_width": 36.610731,
+      "n": 12
+    },
+    {
+      "code": "R1K",
+      "horizon": 2,
+      "mae": 9.744472,
+      "wape": 0.969161,
+      "coverage": 1.0,
+      "mean_interval_width": 47.842913,
+      "n": 11
+    },
+    {
+      "code": "R1K",
+      "horizon": 3,
+      "mae": 8.153496,
+      "wape": 0.811212,
+      "coverage": 1.0,
+      "mean_interval_width": 54.393402,
+      "n": 10
+    },
+    {
+      "code": "RA2",
+      "horizon": 1,
+      "mae": 6.462761,
+      "wape": 1.423255,
+      "coverage": 0.916667,
+      "mean_interval_width": 22.720568,
+      "n": 12
+    },
+    {
+      "code": "RA2",
+      "horizon": 2,
+      "mae": 9.870456,
+      "wape": 2.168464,
+      "coverage": 0.818182,
+      "mean_interval_width": 30.844097,
+      "n": 11
+    },
+    {
+      "code": "RA2",
+      "horizon": 3,
+      "mae": 14.20123,
+      "wape": 3.113622,
+      "coverage": 0.7,
+      "mean_interval_width": 41.529617,
+      "n": 10
+    },
+    {
+      "code": "RA7",
+      "horizon": 1,
+      "mae": 14.318713,
+      "wape": 1.782967,
+      "coverage": 0.666667,
+      "mean_interval_width": 40.55338,
+      "n": 12
+    },
+    {
+      "code": "RA7",
+      "horizon": 2,
+      "mae": 17.98222,
+      "wape": 2.243698,
+      "coverage": 0.818182,
+      "mean_interval_width": 49.66577,
+      "n": 11
+    },
+    {
+      "code": "RA7",
+      "horizon": 3,
+      "mae": 18.94758,
+      "wape": 2.361069,
+      "coverage": 0.7,
+      "mean_interval_width": 54.920072,
+      "n": 10
+    },
+    {
+      "code": "RA9",
+      "horizon": 1,
+      "mae": 3.176842,
+      "wape": 0.85132,
+      "coverage": 1.0,
+      "mean_interval_width": 21.828871,
+      "n": 12
+    },
+    {
+      "code": "RA9",
+      "horizon": 2,
+      "mae": 4.962614,
+      "wape": 1.327225,
+      "coverage": 1.0,
+      "mean_interval_width": 27.201984,
+      "n": 11
+    },
+    {
+      "code": "RA9",
+      "horizon": 3,
+      "mae": 7.011573,
+      "wape": 1.873249,
+      "coverage": 1.0,
+      "mean_interval_width": 31.507676,
+      "n": 10
+    },
+    {
+      "code": "RAE",
+      "horizon": 1,
+      "mae": 7.912573,
+      "wape": 1.507875,
+      "coverage": 0.916667,
+      "mean_interval_width": 27.970241,
+      "n": 12
+    },
+    {
+      "code": "RAE",
+      "horizon": 2,
+      "mae": 7.586745,
+      "wape": 1.443595,
+      "coverage": 0.909091,
+      "mean_interval_width": 35.415391,
+      "n": 11
+    },
+    {
+      "code": "RAE",
+      "horizon": 3,
+      "mae": 8.785258,
+      "wape": 1.67179,
+      "coverage": 1.0,
+      "mean_interval_width": 39.455087,
+      "n": 10
+    },
+    {
+      "code": "RAJ",
+      "horizon": 1,
+      "mae": 12.217184,
+      "wape": 0.757851,
+      "coverage": 0.916667,
+      "mean_interval_width": 46.059152,
+      "n": 12
+    },
+    {
+      "code": "RAJ",
+      "horizon": 2,
+      "mae": 13.407859,
+      "wape": 0.832175,
+      "coverage": 0.818182,
+      "mean_interval_width": 58.782405,
+      "n": 11
+    },
+    {
+      "code": "RAJ",
+      "horizon": 3,
+      "mae": 15.913709,
+      "wape": 0.987632,
+      "coverage": 0.8,
+      "mean_interval_width": 68.121878,
+      "n": 10
+    },
+    {
+      "code": "RAL",
+      "horizon": 1,
+      "mae": 10.622987,
+      "wape": 0.773565,
+      "coverage": 0.833333,
+      "mean_interval_width": 43.395624,
+      "n": 12
+    },
+    {
+      "code": "RAL",
+      "horizon": 2,
+      "mae": 14.191633,
+      "wape": 1.033212,
+      "coverage": 0.818182,
+      "mean_interval_width": 54.803013,
+      "n": 11
+    },
+    {
+      "code": "RAL",
+      "horizon": 3,
+      "mae": 18.58596,
+      "wape": 1.351706,
+      "coverage": 0.7,
+      "mean_interval_width": 68.177798,
+      "n": 10
+    },
+    {
+      "code": "RAS",
+      "horizon": 1,
+      "mae": 19.327552,
+      "wape": 6.266702,
+      "coverage": 0.666667,
+      "mean_interval_width": 29.699324,
+      "n": 12
+    },
+    {
+      "code": "RAS",
+      "horizon": 2,
+      "mae": 31.55182,
+      "wape": 10.347943,
+      "coverage": 0.636364,
+      "mean_interval_width": 38.607446,
+      "n": 11
+    },
+    {
+      "code": "RAS",
+      "horizon": 3,
+      "mae": 41.25305,
+      "wape": 13.678067,
+      "coverage": 0.4,
+      "mean_interval_width": 42.402999,
+      "n": 10
+    },
+    {
+      "code": "RAX",
+      "horizon": 1,
+      "mae": 4.842328,
+      "wape": 1.436537,
+      "coverage": 0.833333,
+      "mean_interval_width": 22.914055,
+      "n": 12
+    },
+    {
+      "code": "RAX",
+      "horizon": 2,
+      "mae": 7.454246,
+      "wape": 2.218526,
+      "coverage": 0.727273,
+      "mean_interval_width": 29.13761,
+      "n": 11
+    },
+    {
+      "code": "RAX",
+      "horizon": 3,
+      "mae": 8.268001,
+      "wape": 2.456328,
+      "coverage": 0.9,
+      "mean_interval_width": 34.064629,
+      "n": 10
+    },
+    {
+      "code": "RBD",
+      "horizon": 1,
+      "mae": 5.819307,
+      "wape": 1.889897,
+      "coverage": 0.833333,
+      "mean_interval_width": 21.464644,
+      "n": 12
+    },
+    {
+      "code": "RBD",
+      "horizon": 2,
+      "mae": 7.282057,
+      "wape": 2.363606,
+      "coverage": 0.818182,
+      "mean_interval_width": 27.03279,
+      "n": 11
+    },
+    {
+      "code": "RBD",
+      "horizon": 3,
+      "mae": 8.30184,
+      "wape": 2.697154,
+      "coverage": 0.9,
+      "mean_interval_width": 30.166023,
+      "n": 10
+    },
+    {
+      "code": "RBK",
+      "horizon": 1,
+      "mae": 8.215374,
+      "wape": 1.813882,
+      "coverage": 0.833333,
+      "mean_interval_width": 24.441748,
+      "n": 12
+    },
+    {
+      "code": "RBK",
+      "horizon": 2,
+      "mae": 13.076857,
+      "wape": 2.903036,
+      "coverage": 0.727273,
+      "mean_interval_width": 34.613985,
+      "n": 11
+    },
+    {
+      "code": "RBK",
+      "horizon": 3,
+      "mae": 17.075579,
+      "wape": 3.807264,
+      "coverage": 0.7,
+      "mean_interval_width": 41.07582,
+      "n": 10
+    },
+    {
+      "code": "RBL",
+      "horizon": 1,
+      "mae": 10.276504,
+      "wape": 1.441473,
+      "coverage": 0.666667,
+      "mean_interval_width": 32.639577,
+      "n": 12
+    },
+    {
+      "code": "RBL",
+      "horizon": 2,
+      "mae": 12.115666,
+      "wape": 1.696008,
+      "coverage": 0.727273,
+      "mean_interval_width": 45.165639,
+      "n": 11
+    },
+    {
+      "code": "RBL",
+      "horizon": 3,
+      "mae": 16.250336,
+      "wape": 2.269917,
+      "coverage": 0.9,
+      "mean_interval_width": 52.776826,
+      "n": 10
+    },
+    {
+      "code": "RBN",
+      "horizon": 1,
+      "mae": 13.948256,
+      "wape": 1.223263,
+      "coverage": 0.833333,
+      "mean_interval_width": 38.949018,
+      "n": 12
+    },
+    {
+      "code": "RBN",
+      "horizon": 2,
+      "mae": 14.715482,
+      "wape": 1.292274,
+      "coverage": 0.818182,
+      "mean_interval_width": 50.339245,
+      "n": 11
+    },
+    {
+      "code": "RBN",
+      "horizon": 3,
+      "mae": 19.971814,
+      "wape": 1.753606,
+      "coverage": 0.9,
+      "mean_interval_width": 61.384852,
+      "n": 10
+    },
+    {
+      "code": "RBT",
+      "horizon": 1,
+      "mae": 10.688697,
+      "wape": 2.34487,
+      "coverage": 0.75,
+      "mean_interval_width": 25.808226,
+      "n": 12
+    },
+    {
+      "code": "RBT",
+      "horizon": 2,
+      "mae": 11.841454,
+      "wape": 2.584957,
+      "coverage": 0.818182,
+      "mean_interval_width": 34.721266,
+      "n": 11
+    },
+    {
+      "code": "RBT",
+      "horizon": 3,
+      "mae": 14.63385,
+      "wape": 3.18404,
+      "coverage": 0.7,
+      "mean_interval_width": 41.729855,
+      "n": 10
+    },
+    {
+      "code": "RC9",
+      "horizon": 1,
+      "mae": 18.525894,
+      "wape": 1.985804,
+      "coverage": 0.5,
+      "mean_interval_width": 38.053846,
+      "n": 12
+    },
+    {
+      "code": "RC9",
+      "horizon": 2,
+      "mae": 19.924768,
+      "wape": 2.129956,
+      "coverage": 0.636364,
+      "mean_interval_width": 49.29947,
+      "n": 11
+    },
+    {
+      "code": "RC9",
+      "horizon": 3,
+      "mae": 18.693663,
+      "wape": 1.99314,
+      "coverage": 0.8,
+      "mean_interval_width": 60.3015,
+      "n": 10
+    },
+    {
+      "code": "RCB",
+      "horizon": 1,
+      "mae": 18.551804,
+      "wape": 2.317045,
+      "coverage": 0.666667,
+      "mean_interval_width": 36.751389,
+      "n": 12
+    },
+    {
+      "code": "RCB",
+      "horizon": 2,
+      "mae": 19.597444,
+      "wape": 2.447178,
+      "coverage": 0.727273,
+      "mean_interval_width": 45.85141,
+      "n": 11
+    },
+    {
+      "code": "RCB",
+      "horizon": 3,
+      "mae": 19.237691,
+      "wape": 2.399612,
+      "coverage": 0.7,
+      "mean_interval_width": 51.790502,
+      "n": 10
+    },
+    {
+      "code": "RCD",
+      "horizon": 1,
+      "mae": 8.840281,
+      "wape": 3.464512,
+      "coverage": 0.75,
+      "mean_interval_width": 28.031789,
+      "n": 12
+    },
+    {
+      "code": "RCD",
+      "horizon": 2,
+      "mae": 12.780826,
+      "wape": 5.006734,
+      "coverage": 0.636364,
+      "mean_interval_width": 33.764227,
+      "n": 11
+    },
+    {
+      "code": "RCD",
+      "horizon": 3,
+      "mae": 15.391054,
+      "wape": 6.047565,
+      "coverage": 0.6,
+      "mean_interval_width": 35.587597,
+      "n": 10
+    },
+    {
+      "code": "RCF",
+      "horizon": 1,
+      "mae": 7.593112,
+      "wape": 2.244823,
+      "coverage": 0.833333,
+      "mean_interval_width": 24.051121,
+      "n": 12
+    },
+    {
+      "code": "RCF",
+      "horizon": 2,
+      "mae": 11.390054,
+      "wape": 3.359898,
+      "coverage": 0.727273,
+      "mean_interval_width": 29.375436,
+      "n": 11
+    },
+    {
+      "code": "RCF",
+      "horizon": 3,
+      "mae": 12.230673,
+      "wape": 3.598315,
+      "coverage": 0.8,
+      "mean_interval_width": 33.63275,
+      "n": 10
+    },
+    {
+      "code": "RCX",
+      "horizon": 1,
+      "mae": 6.222771,
+      "wape": 1.353022,
+      "coverage": 0.833333,
+      "mean_interval_width": 22.996742,
+      "n": 12
+    },
+    {
+      "code": "RCX",
+      "horizon": 2,
+      "mae": 10.251353,
+      "wape": 2.230759,
+      "coverage": 0.727273,
+      "mean_interval_width": 31.109612,
+      "n": 11
+    },
+    {
+      "code": "RCX",
+      "horizon": 3,
+      "mae": 14.222782,
+      "wape": 3.097296,
+      "coverage": 0.6,
+      "mean_interval_width": 39.02626,
+      "n": 10
+    },
+    {
+      "code": "RD1",
+      "horizon": 1,
+      "mae": 7.765234,
+      "wape": 1.644016,
+      "coverage": 0.833333,
+      "mean_interval_width": 23.018135,
+      "n": 12
+    },
+    {
+      "code": "RD1",
+      "horizon": 2,
+      "mae": 8.765049,
+      "wape": 1.857002,
+      "coverage": 0.727273,
+      "mean_interval_width": 31.088675,
+      "n": 11
+    },
+    {
+      "code": "RD1",
+      "horizon": 3,
+      "mae": 10.081484,
+      "wape": 2.135455,
+      "coverage": 0.8,
+      "mean_interval_width": 36.540625,
+      "n": 10
+    },
+    {
+      "code": "RD8",
+      "horizon": 1,
+      "mae": 5.713572,
+      "wape": 1.240732,
+      "coverage": 1.0,
+      "mean_interval_width": 27.128151,
+      "n": 12
+    },
+    {
+      "code": "RD8",
+      "horizon": 2,
+      "mae": 4.504699,
+      "wape": 0.976196,
+      "coverage": 1.0,
+      "mean_interval_width": 33.504472,
+      "n": 11
+    },
+    {
+      "code": "RD8",
+      "horizon": 3,
+      "mae": 4.927469,
+      "wape": 1.065168,
+      "coverage": 1.0,
+      "mean_interval_width": 37.06233,
+      "n": 10
+    },
+    {
+      "code": "RDE",
+      "horizon": 1,
+      "mae": 26.091747,
+      "wape": 2.24945,
+      "coverage": 0.583333,
+      "mean_interval_width": 51.33987,
+      "n": 12
+    },
+    {
+      "code": "RDE",
+      "horizon": 2,
+      "mae": 34.651059,
+      "wape": 3.006481,
+      "coverage": 0.727273,
+      "mean_interval_width": 65.486482,
+      "n": 11
+    },
+    {
+      "code": "RDE",
+      "horizon": 3,
+      "mae": 44.726575,
+      "wape": 3.897401,
+      "coverage": 0.6,
+      "mean_interval_width": 79.612714,
+      "n": 10
+    },
+    {
+      "code": "RDU",
+      "horizon": 1,
+      "mae": 11.617345,
+      "wape": 1.003081,
+      "coverage": 0.833333,
+      "mean_interval_width": 43.620092,
+      "n": 12
+    },
+    {
+      "code": "RDU",
+      "horizon": 2,
+      "mae": 13.067767,
+      "wape": 1.128034,
+      "coverage": 0.818182,
+      "mean_interval_width": 54.735909,
+      "n": 11
+    },
+    {
+      "code": "RDU",
+      "horizon": 3,
+      "mae": 11.657362,
+      "wape": 1.006073,
+      "coverage": 1.0,
+      "mean_interval_width": 64.359258,
+      "n": 10
+    },
+    {
+      "code": "REF",
+      "horizon": 1,
+      "mae": 6.1567,
+      "wape": 1.012338,
+      "coverage": 0.916667,
+      "mean_interval_width": 29.532084,
+      "n": 12
+    },
+    {
+      "code": "REF",
+      "horizon": 2,
+      "mae": 9.459812,
+      "wape": 1.553567,
+      "coverage": 0.909091,
+      "mean_interval_width": 35.546091,
+      "n": 11
+    },
+    {
+      "code": "REF",
+      "horizon": 3,
+      "mae": 7.065127,
+      "wape": 1.158218,
+      "coverage": 0.9,
+      "mean_interval_width": 42.350111,
+      "n": 10
+    },
+    {
+      "code": "REM",
+      "horizon": 1,
+      "mae": 21.364721,
+      "wape": 1.453794,
+      "coverage": 0.583333,
+      "mean_interval_width": 52.333959,
+      "n": 12
+    },
+    {
+      "code": "REM",
+      "horizon": 2,
+      "mae": 26.278186,
+      "wape": 1.793399,
+      "coverage": 0.636364,
+      "mean_interval_width": 70.702904,
+      "n": 11
+    },
+    {
+      "code": "REM",
+      "horizon": 3,
+      "mae": 30.211207,
+      "wape": 2.068269,
+      "coverage": 0.8,
+      "mean_interval_width": 79.705077,
+      "n": 10
+    },
+    {
+      "code": "RF4",
+      "horizon": 1,
+      "mae": 12.632917,
+      "wape": 1.454149,
+      "coverage": 0.75,
+      "mean_interval_width": 40.149352,
+      "n": 12
+    },
+    {
+      "code": "RF4",
+      "horizon": 2,
+      "mae": 15.392447,
+      "wape": 1.771839,
+      "coverage": 0.818182,
+      "mean_interval_width": 47.878669,
+      "n": 11
+    },
+    {
+      "code": "RF4",
+      "horizon": 3,
+      "mae": 9.933969,
+      "wape": 1.143544,
+      "coverage": 0.9,
+      "mean_interval_width": 58.003568,
+      "n": 10
+    },
+    {
+      "code": "RFF",
+      "horizon": 1,
+      "mae": 7.750778,
+      "wape": 1.782471,
+      "coverage": 0.666667,
+      "mean_interval_width": 24.328439,
+      "n": 12
+    },
+    {
+      "code": "RFF",
+      "horizon": 2,
+      "mae": 10.148076,
+      "wape": 2.33582,
+      "coverage": 0.727273,
+      "mean_interval_width": 32.593953,
+      "n": 11
+    },
+    {
+      "code": "RFF",
+      "horizon": 3,
+      "mae": 10.508612,
+      "wape": 2.418553,
+      "coverage": 0.8,
+      "mean_interval_width": 38.801337,
+      "n": 10
+    },
+    {
+      "code": "RFR",
+      "horizon": 1,
+      "mae": 6.685507,
+      "wape": 1.572136,
+      "coverage": 0.916667,
+      "mean_interval_width": 25.136625,
+      "n": 12
+    },
+    {
+      "code": "RFR",
+      "horizon": 2,
+      "mae": 9.487429,
+      "wape": 2.232336,
+      "coverage": 0.727273,
+      "mean_interval_width": 31.252398,
+      "n": 11
+    },
+    {
+      "code": "RFR",
+      "horizon": 3,
+      "mae": 10.613299,
+      "wape": 2.489047,
+      "coverage": 1.0,
+      "mean_interval_width": 38.219652,
+      "n": 10
+    },
+    {
+      "code": "RFS",
+      "horizon": 1,
+      "mae": 11.52149,
+      "wape": 2.310073,
+      "coverage": 0.75,
+      "mean_interval_width": 24.721616,
+      "n": 12
+    },
+    {
+      "code": "RFS",
+      "horizon": 2,
+      "mae": 13.558254,
+      "wape": 2.714118,
+      "coverage": 0.727273,
+      "mean_interval_width": 35.189067,
+      "n": 11
+    },
+    {
+      "code": "RFS",
+      "horizon": 3,
+      "mae": 13.412712,
+      "wape": 2.67612,
+      "coverage": 0.8,
+      "mean_interval_width": 39.725302,
+      "n": 10
+    },
+    {
+      "code": "RGN",
+      "horizon": 1,
+      "mae": 9.094957,
+      "wape": 1.013366,
+      "coverage": 0.833333,
+      "mean_interval_width": 37.70236,
+      "n": 12
+    },
+    {
+      "code": "RGN",
+      "horizon": 2,
+      "mae": 13.50478,
+      "wape": 1.505855,
+      "coverage": 0.909091,
+      "mean_interval_width": 47.935494,
+      "n": 11
+    },
+    {
+      "code": "RGN",
+      "horizon": 3,
+      "mae": 14.637933,
+      "wape": 1.632605,
+      "coverage": 0.9,
+      "mean_interval_width": 61.297234,
+      "n": 10
+    },
+    {
+      "code": "RGP",
+      "horizon": 1,
+      "mae": 9.322194,
+      "wape": 2.304147,
+      "coverage": 0.833333,
+      "mean_interval_width": 26.450197,
+      "n": 12
+    },
+    {
+      "code": "RGP",
+      "horizon": 2,
+      "mae": 16.822003,
+      "wape": 4.182686,
+      "coverage": 0.727273,
+      "mean_interval_width": 34.680309,
+      "n": 11
+    },
+    {
+      "code": "RGP",
+      "horizon": 3,
+      "mae": 24.125938,
+      "wape": 6.039033,
+      "coverage": 0.6,
+      "mean_interval_width": 42.969252,
+      "n": 10
+    },
+    {
+      "code": "RGR",
+      "horizon": 1,
+      "mae": 9.067429,
+      "wape": 2.164064,
+      "coverage": 0.666667,
+      "mean_interval_width": 26.529833,
+      "n": 12
+    },
+    {
+      "code": "RGR",
+      "horizon": 2,
+      "mae": 13.843338,
+      "wape": 3.29247,
+      "coverage": 0.545455,
+      "mean_interval_width": 32.390351,
+      "n": 11
+    },
+    {
+      "code": "RGR",
+      "horizon": 3,
+      "mae": 14.726315,
+      "wape": 3.489648,
+      "coverage": 0.6,
+      "mean_interval_width": 39.228524,
+      "n": 10
+    },
+    {
+      "code": "RGT",
+      "horizon": 1,
+      "mae": 10.085849,
+      "wape": 1.098178,
+      "coverage": 0.833333,
+      "mean_interval_width": 40.06995,
+      "n": 12
+    },
+    {
+      "code": "RGT",
+      "horizon": 2,
+      "mae": 11.933485,
+      "wape": 1.296862,
+      "coverage": 0.909091,
+      "mean_interval_width": 46.698602,
+      "n": 11
+    },
+    {
+      "code": "RGT",
+      "horizon": 3,
+      "mae": 15.145638,
+      "wape": 1.644656,
+      "coverage": 0.8,
+      "mean_interval_width": 51.954827,
+      "n": 10
+    },
+    {
+      "code": "RH5",
+      "horizon": 1,
+      "mae": 18.689867,
+      "wape": 2.151971,
+      "coverage": 0.666667,
+      "mean_interval_width": 38.172057,
+      "n": 12
+    },
+    {
+      "code": "RH5",
+      "horizon": 2,
+      "mae": 23.173558,
+      "wape": 2.680433,
+      "coverage": 0.454545,
+      "mean_interval_width": 51.036079,
+      "n": 11
+    },
+    {
+      "code": "RH5",
+      "horizon": 3,
+      "mae": 21.630434,
+      "wape": 2.509913,
+      "coverage": 0.8,
+      "mean_interval_width": 59.759769,
+      "n": 10
+    },
+    {
+      "code": "RH8",
+      "horizon": 1,
+      "mae": 17.847243,
+      "wape": 1.777024,
+      "coverage": 0.583333,
+      "mean_interval_width": 43.195485,
+      "n": 12
+    },
+    {
+      "code": "RH8",
+      "horizon": 2,
+      "mae": 15.604354,
+      "wape": 1.5545,
+      "coverage": 0.818182,
+      "mean_interval_width": 53.99624,
+      "n": 11
+    },
+    {
+      "code": "RH8",
+      "horizon": 3,
+      "mae": 20.864993,
+      "wape": 2.07798,
+      "coverage": 0.8,
+      "mean_interval_width": 60.570932,
+      "n": 10
+    },
+    {
+      "code": "RHM",
+      "horizon": 1,
+      "mae": 47.671146,
+      "wape": 5.188696,
+      "coverage": 0.666667,
+      "mean_interval_width": 43.411651,
+      "n": 12
+    },
+    {
+      "code": "RHM",
+      "horizon": 2,
+      "mae": 48.323864,
+      "wape": 5.279199,
+      "coverage": 0.636364,
+      "mean_interval_width": 52.946115,
+      "n": 11
+    },
+    {
+      "code": "RHM",
+      "horizon": 3,
+      "mae": 52.132615,
+      "wape": 5.7276,
+      "coverage": 0.6,
+      "mean_interval_width": 57.477059,
+      "n": 10
+    },
+    {
+      "code": "RHQ",
+      "horizon": 1,
+      "mae": 27.252618,
+      "wape": 1.969001,
+      "coverage": 0.666667,
+      "mean_interval_width": 52.14659,
+      "n": 12
+    },
+    {
+      "code": "RHQ",
+      "horizon": 2,
+      "mae": 34.156186,
+      "wape": 2.465827,
+      "coverage": 0.636364,
+      "mean_interval_width": 66.220856,
+      "n": 11
+    },
+    {
+      "code": "RHQ",
+      "horizon": 3,
+      "mae": 38.417222,
+      "wape": 2.766217,
+      "coverage": 0.5,
+      "mean_interval_width": 77.703402,
+      "n": 10
+    },
+    {
+      "code": "RHU",
+      "horizon": 1,
+      "mae": 16.881841,
+      "wape": 1.631227,
+      "coverage": 0.583333,
+      "mean_interval_width": 41.869314,
+      "n": 12
+    },
+    {
+      "code": "RHU",
+      "horizon": 2,
+      "mae": 18.781617,
+      "wape": 1.81099,
+      "coverage": 0.727273,
+      "mean_interval_width": 52.610263,
+      "n": 11
+    },
+    {
+      "code": "RHU",
+      "horizon": 3,
+      "mae": 20.895973,
+      "wape": 2.009808,
+      "coverage": 0.8,
+      "mean_interval_width": 60.536621,
+      "n": 10
+    },
+    {
+      "code": "RHW",
+      "horizon": 1,
+      "mae": 8.444183,
+      "wape": 1.74647,
+      "coverage": 0.666667,
+      "mean_interval_width": 24.732638,
+      "n": 12
+    },
+    {
+      "code": "RHW",
+      "horizon": 2,
+      "mae": 8.237897,
+      "wape": 1.708463,
+      "coverage": 1.0,
+      "mean_interval_width": 32.174946,
+      "n": 11
+    },
+    {
+      "code": "RHW",
+      "horizon": 3,
+      "mae": 12.279603,
+      "wape": 2.553994,
+      "coverage": 0.9,
+      "mean_interval_width": 37.453085,
+      "n": 10
+    },
+    {
+      "code": "RJ1",
+      "horizon": 1,
+      "mae": 14.468329,
+      "wape": 1.464159,
+      "coverage": 0.833333,
+      "mean_interval_width": 45.862087,
+      "n": 12
+    },
+    {
+      "code": "RJ1",
+      "horizon": 2,
+      "mae": 22.457802,
+      "wape": 2.27243,
+      "coverage": 0.636364,
+      "mean_interval_width": 56.653373,
+      "n": 11
+    },
+    {
+      "code": "RJ1",
+      "horizon": 3,
+      "mae": 20.250015,
+      "wape": 2.04856,
+      "coverage": 0.8,
+      "mean_interval_width": 65.258948,
+      "n": 10
+    },
+    {
+      "code": "RJ2",
+      "horizon": 1,
+      "mae": 10.835905,
+      "wape": 1.182959,
+      "coverage": 0.833333,
+      "mean_interval_width": 35.930288,
+      "n": 12
+    },
+    {
+      "code": "RJ2",
+      "horizon": 2,
+      "mae": 14.354007,
+      "wape": 1.570617,
+      "coverage": 0.818182,
+      "mean_interval_width": 44.88719,
+      "n": 11
+    },
+    {
+      "code": "RJ2",
+      "horizon": 3,
+      "mae": 14.872508,
+      "wape": 1.629864,
+      "coverage": 0.9,
+      "mean_interval_width": 54.192464,
+      "n": 10
+    },
+    {
+      "code": "RJ6",
+      "horizon": 1,
+      "mae": 6.764683,
+      "wape": 1.608724,
+      "coverage": 0.916667,
+      "mean_interval_width": 21.551409,
+      "n": 12
+    },
+    {
+      "code": "RJ6",
+      "horizon": 2,
+      "mae": 13.658367,
+      "wape": 3.266841,
+      "coverage": 0.727273,
+      "mean_interval_width": 29.520082,
+      "n": 11
+    },
+    {
+      "code": "RJ6",
+      "horizon": 3,
+      "mae": 16.443274,
+      "wape": 3.95366,
+      "coverage": 0.7,
+      "mean_interval_width": 38.124375,
+      "n": 10
+    },
+    {
+      "code": "RJ7",
+      "horizon": 1,
+      "mae": 12.750047,
+      "wape": 1.768179,
+      "coverage": 0.5,
+      "mean_interval_width": 32.945609,
+      "n": 12
+    },
+    {
+      "code": "RJ7",
+      "horizon": 2,
+      "mae": 13.467103,
+      "wape": 1.876829,
+      "coverage": 0.727273,
+      "mean_interval_width": 46.039331,
+      "n": 11
+    },
+    {
+      "code": "RJ7",
+      "horizon": 3,
+      "mae": 13.449393,
+      "wape": 1.878932,
+      "coverage": 0.8,
+      "mean_interval_width": 53.595429,
+      "n": 10
+    },
+    {
+      "code": "RJC",
+      "horizon": 1,
+      "mae": 11.531705,
+      "wape": 2.986199,
+      "coverage": 0.5,
+      "mean_interval_width": 23.748175,
+      "n": 12
+    },
+    {
+      "code": "RJC",
+      "horizon": 2,
+      "mae": 11.522996,
+      "wape": 2.97612,
+      "coverage": 0.818182,
+      "mean_interval_width": 30.101433,
+      "n": 11
+    },
+    {
+      "code": "RJC",
+      "horizon": 3,
+      "mae": 12.504557,
+      "wape": 3.233658,
+      "coverage": 0.8,
+      "mean_interval_width": 34.398971,
+      "n": 10
+    },
+    {
+      "code": "RJE",
+      "horizon": 1,
+      "mae": 18.131631,
+      "wape": 1.440447,
+      "coverage": 0.583333,
+      "mean_interval_width": 46.483114,
+      "n": 12
+    },
+    {
+      "code": "RJE",
+      "horizon": 2,
+      "mae": 21.723385,
+      "wape": 1.72209,
+      "coverage": 0.818182,
+      "mean_interval_width": 62.891278,
+      "n": 11
+    },
+    {
+      "code": "RJE",
+      "horizon": 3,
+      "mae": 20.375375,
+      "wape": 1.611721,
+      "coverage": 0.7,
+      "mean_interval_width": 73.241894,
+      "n": 10
+    },
+    {
+      "code": "RJL",
+      "horizon": 1,
+      "mae": 9.013758,
+      "wape": 1.677498,
+      "coverage": 0.916667,
+      "mean_interval_width": 28.79117,
+      "n": 12
+    },
+    {
+      "code": "RJL",
+      "horizon": 2,
+      "mae": 6.989941,
+      "wape": 1.304979,
+      "coverage": 0.909091,
+      "mean_interval_width": 36.708601,
+      "n": 11
+    },
+    {
+      "code": "RJL",
+      "horizon": 3,
+      "mae": 8.862622,
+      "wape": 1.655946,
+      "coverage": 1.0,
+      "mean_interval_width": 40.46045,
+      "n": 10
+    },
+    {
+      "code": "RJN",
+      "horizon": 1,
+      "mae": 6.792865,
+      "wape": 2.480657,
+      "coverage": 0.833333,
+      "mean_interval_width": 21.681182,
+      "n": 12
+    },
+    {
+      "code": "RJN",
+      "horizon": 2,
+      "mae": 7.01695,
+      "wape": 2.564334,
+      "coverage": 0.909091,
+      "mean_interval_width": 26.219038,
+      "n": 11
+    },
+    {
+      "code": "RJN",
+      "horizon": 3,
+      "mae": 9.213953,
+      "wape": 3.356631,
+      "coverage": 0.9,
+      "mean_interval_width": 32.167293,
+      "n": 10
+    },
+    {
+      "code": "RJR",
+      "horizon": 1,
+      "mae": 9.434469,
+      "wape": 1.974771,
+      "coverage": 0.583333,
+      "mean_interval_width": 22.832435,
+      "n": 12
+    },
+    {
+      "code": "RJR",
+      "horizon": 2,
+      "mae": 12.965584,
+      "wape": 2.709373,
+      "coverage": 0.727273,
+      "mean_interval_width": 32.082161,
+      "n": 11
+    },
+    {
+      "code": "RJR",
+      "horizon": 3,
+      "mae": 10.215135,
+      "wape": 2.135717,
+      "coverage": 0.9,
+      "mean_interval_width": 39.538555,
+      "n": 10
+    },
+    {
+      "code": "RJZ",
+      "horizon": 1,
+      "mae": 9.416163,
+      "wape": 0.740944,
+      "coverage": 0.833333,
+      "mean_interval_width": 41.154514,
+      "n": 12
+    },
+    {
+      "code": "RJZ",
+      "horizon": 2,
+      "mae": 16.980534,
+      "wape": 1.336763,
+      "coverage": 0.727273,
+      "mean_interval_width": 54.627675,
+      "n": 11
+    },
+    {
+      "code": "RJZ",
+      "horizon": 3,
+      "mae": 20.744819,
+      "wape": 1.633965,
+      "coverage": 0.7,
+      "mean_interval_width": 63.65621,
+      "n": 10
+    },
+    {
+      "code": "RK5",
+      "horizon": 1,
+      "mae": 7.101263,
+      "wape": 1.112615,
+      "coverage": 1.0,
+      "mean_interval_width": 31.593618,
+      "n": 12
+    },
+    {
+      "code": "RK5",
+      "horizon": 2,
+      "mae": 10.294238,
+      "wape": 1.608018,
+      "coverage": 0.909091,
+      "mean_interval_width": 40.146953,
+      "n": 11
+    },
+    {
+      "code": "RK5",
+      "horizon": 3,
+      "mae": 13.119073,
+      "wape": 2.042197,
+      "coverage": 0.8,
+      "mean_interval_width": 47.498812,
+      "n": 10
+    },
+    {
+      "code": "RK9",
+      "horizon": 1,
+      "mae": 11.144352,
+      "wape": 1.190212,
+      "coverage": 0.833333,
+      "mean_interval_width": 38.697696,
+      "n": 12
+    },
+    {
+      "code": "RK9",
+      "horizon": 2,
+      "mae": 13.612678,
+      "wape": 1.455901,
+      "coverage": 0.818182,
+      "mean_interval_width": 49.140883,
+      "n": 11
+    },
+    {
+      "code": "RK9",
+      "horizon": 3,
+      "mae": 12.697351,
+      "wape": 1.359896,
+      "coverage": 0.8,
+      "mean_interval_width": 56.710946,
+      "n": 10
+    },
+    {
+      "code": "RKB",
+      "horizon": 1,
+      "mae": 8.58574,
+      "wape": 0.869222,
+      "coverage": 0.833333,
+      "mean_interval_width": 33.657152,
+      "n": 12
+    },
+    {
+      "code": "RKB",
+      "horizon": 2,
+      "mae": 10.320789,
+      "wape": 1.044422,
+      "coverage": 1.0,
+      "mean_interval_width": 43.945744,
+      "n": 11
+    },
+    {
+      "code": "RKB",
+      "horizon": 3,
+      "mae": 14.427758,
+      "wape": 1.460299,
+      "coverage": 1.0,
+      "mean_interval_width": 53.306296,
+      "n": 10
+    },
+    {
+      "code": "RKE",
+      "horizon": 1,
+      "mae": 7.512643,
+      "wape": 3.277052,
+      "coverage": 0.833333,
+      "mean_interval_width": 21.724795,
+      "n": 12
+    },
+    {
+      "code": "RKE",
+      "horizon": 2,
+      "mae": 6.829595,
+      "wape": 2.977628,
+      "coverage": 0.909091,
+      "mean_interval_width": 26.79316,
+      "n": 11
+    },
+    {
+      "code": "RKE",
+      "horizon": 3,
+      "mae": 10.834575,
+      "wape": 4.731256,
+      "coverage": 0.9,
+      "mean_interval_width": 34.129321,
+      "n": 10
+    },
+    {
+      "code": "RL4",
+      "horizon": 1,
+      "mae": 8.066714,
+      "wape": 1.082296,
+      "coverage": 1.0,
+      "mean_interval_width": 34.107334,
+      "n": 12
+    },
+    {
+      "code": "RL4",
+      "horizon": 2,
+      "mae": 8.633293,
+      "wape": 1.160389,
+      "coverage": 1.0,
+      "mean_interval_width": 44.807501,
+      "n": 11
+    },
+    {
+      "code": "RL4",
+      "horizon": 3,
+      "mae": 9.653527,
+      "wape": 1.300839,
+      "coverage": 1.0,
+      "mean_interval_width": 50.087366,
+      "n": 10
+    },
+    {
+      "code": "RLQ",
+      "horizon": 1,
+      "mae": 12.40837,
+      "wape": 3.672021,
+      "coverage": 0.5,
+      "mean_interval_width": 23.056102,
+      "n": 12
+    },
+    {
+      "code": "RLQ",
+      "horizon": 2,
+      "mae": 18.303198,
+      "wape": 5.407875,
+      "coverage": 0.272727,
+      "mean_interval_width": 29.43568,
+      "n": 11
+    },
+    {
+      "code": "RLQ",
+      "horizon": 3,
+      "mae": 14.621676,
+      "wape": 4.333632,
+      "coverage": 0.5,
+      "mean_interval_width": 33.610229,
+      "n": 10
+    },
+    {
+      "code": "RLT",
+      "horizon": 1,
+      "mae": 8.132945,
+      "wape": 2.124409,
+      "coverage": 0.916667,
+      "mean_interval_width": 23.877305,
+      "n": 12
+    },
+    {
+      "code": "RLT",
+      "horizon": 2,
+      "mae": 12.588272,
+      "wape": 3.292225,
+      "coverage": 0.818182,
+      "mean_interval_width": 28.442888,
+      "n": 11
+    },
+    {
+      "code": "RLT",
+      "horizon": 3,
+      "mae": 13.276334,
+      "wape": 3.464597,
+      "coverage": 0.7,
+      "mean_interval_width": 33.402526,
+      "n": 10
+    },
+    {
+      "code": "RM1",
+      "horizon": 1,
+      "mae": 13.882532,
+      "wape": 1.607395,
+      "coverage": 0.75,
+      "mean_interval_width": 36.86657,
+      "n": 12
+    },
+    {
+      "code": "RM1",
+      "horizon": 2,
+      "mae": 18.804899,
+      "wape": 2.180163,
+      "coverage": 0.727273,
+      "mean_interval_width": 47.602329,
+      "n": 11
+    },
+    {
+      "code": "RM1",
+      "horizon": 3,
+      "mae": 17.141462,
+      "wape": 1.989261,
+      "coverage": 0.7,
+      "mean_interval_width": 56.736891,
+      "n": 10
+    },
+    {
+      "code": "RM3",
+      "horizon": 1,
+      "mae": 14.344143,
+      "wape": 1.02973,
+      "coverage": 0.833333,
+      "mean_interval_width": 48.175237,
+      "n": 12
+    },
+    {
+      "code": "RM3",
+      "horizon": 2,
+      "mae": 22.928435,
+      "wape": 1.64458,
+      "coverage": 0.545455,
+      "mean_interval_width": 63.489326,
+      "n": 11
+    },
+    {
+      "code": "RM3",
+      "horizon": 3,
+      "mae": 25.205767,
+      "wape": 1.808031,
+      "coverage": 0.8,
+      "mean_interval_width": 72.592804,
+      "n": 10
+    },
+    {
+      "code": "RMC",
+      "horizon": 1,
+      "mae": 11.462229,
+      "wape": 2.427153,
+      "coverage": 0.75,
+      "mean_interval_width": 28.968915,
+      "n": 12
+    },
+    {
+      "code": "RMC",
+      "horizon": 2,
+      "mae": 17.124983,
+      "wape": 3.649967,
+      "coverage": 0.545455,
+      "mean_interval_width": 38.824755,
+      "n": 11
+    },
+    {
+      "code": "RMC",
+      "horizon": 3,
+      "mae": 23.022913,
+      "wape": 4.931016,
+      "coverage": 0.4,
+      "mean_interval_width": 41.698681,
+      "n": 10
+    },
+    {
+      "code": "RMP",
+      "horizon": 1,
+      "mae": 10.937078,
+      "wape": 2.797207,
+      "coverage": 0.75,
+      "mean_interval_width": 24.733395,
+      "n": 12
+    },
+    {
+      "code": "RMP",
+      "horizon": 2,
+      "mae": 13.743196,
+      "wape": 3.519794,
+      "coverage": 0.636364,
+      "mean_interval_width": 30.408939,
+      "n": 11
+    },
+    {
+      "code": "RMP",
+      "horizon": 3,
+      "mae": 16.229252,
+      "wape": 4.165619,
+      "coverage": 0.5,
+      "mean_interval_width": 37.402392,
+      "n": 10
+    },
+    {
+      "code": "RN3",
+      "horizon": 1,
+      "mae": 10.979548,
+      "wape": 2.069985,
+      "coverage": 0.583333,
+      "mean_interval_width": 27.017666,
+      "n": 12
+    },
+    {
+      "code": "RN3",
+      "horizon": 2,
+      "mae": 11.788722,
+      "wape": 2.223906,
+      "coverage": 0.727273,
+      "mean_interval_width": 35.462389,
+      "n": 11
+    },
+    {
+      "code": "RN3",
+      "horizon": 3,
+      "mae": 11.336058,
+      "wape": 2.142112,
+      "coverage": 0.9,
+      "mean_interval_width": 41.938108,
+      "n": 10
+    },
+    {
+      "code": "RN5",
+      "horizon": 1,
+      "mae": 13.151743,
+      "wape": 1.753761,
+      "coverage": 0.666667,
+      "mean_interval_width": 36.311709,
+      "n": 12
+    },
+    {
+      "code": "RN5",
+      "horizon": 2,
+      "mae": 12.155858,
+      "wape": 1.622354,
+      "coverage": 0.909091,
+      "mean_interval_width": 45.966326,
+      "n": 11
+    },
+    {
+      "code": "RN5",
+      "horizon": 3,
+      "mae": 10.824549,
+      "wape": 1.446552,
+      "coverage": 0.9,
+      "mean_interval_width": 51.923082,
+      "n": 10
+    },
+    {
+      "code": "RN7",
+      "horizon": 1,
+      "mae": 4.403378,
+      "wape": 0.923947,
+      "coverage": 0.916667,
+      "mean_interval_width": 23.416784,
+      "n": 12
+    },
+    {
+      "code": "RN7",
+      "horizon": 2,
+      "mae": 5.4854,
+      "wape": 1.151076,
+      "coverage": 0.909091,
+      "mean_interval_width": 31.329799,
+      "n": 11
+    },
+    {
+      "code": "RN7",
+      "horizon": 3,
+      "mae": 6.959022,
+      "wape": 1.461672,
+      "coverage": 1.0,
+      "mean_interval_width": 37.203965,
+      "n": 10
+    },
+    {
+      "code": "RNA",
+      "horizon": 1,
+      "mae": 11.585442,
+      "wape": 1.881263,
+      "coverage": 0.75,
+      "mean_interval_width": 29.813555,
+      "n": 12
+    },
+    {
+      "code": "RNA",
+      "horizon": 2,
+      "mae": 11.084048,
+      "wape": 1.79989,
+      "coverage": 0.909091,
+      "mean_interval_width": 35.29324,
+      "n": 11
+    },
+    {
+      "code": "RNA",
+      "horizon": 3,
+      "mae": 12.962224,
+      "wape": 2.103233,
+      "coverage": 0.8,
+      "mean_interval_width": 41.310195,
+      "n": 10
+    },
+    {
+      "code": "RNN",
+      "horizon": 1,
+      "mae": 7.324802,
+      "wape": 1.445447,
+      "coverage": 0.75,
+      "mean_interval_width": 27.159918,
+      "n": 12
+    },
+    {
+      "code": "RNN",
+      "horizon": 2,
+      "mae": 11.516822,
+      "wape": 2.282202,
+      "coverage": 0.909091,
+      "mean_interval_width": 35.719431,
+      "n": 11
+    },
+    {
+      "code": "RNN",
+      "horizon": 3,
+      "mae": 9.816349,
+      "wape": 1.945758,
+      "coverage": 0.8,
+      "mean_interval_width": 41.004413,
+      "n": 10
+    },
+    {
+      "code": "RNQ",
+      "horizon": 1,
+      "mae": 9.130547,
+      "wape": 1.808626,
+      "coverage": 0.833333,
+      "mean_interval_width": 24.034618,
+      "n": 12
+    },
+    {
+      "code": "RNQ",
+      "horizon": 2,
+      "mae": 15.082752,
+      "wape": 3.001814,
+      "coverage": 0.818182,
+      "mean_interval_width": 35.097476,
+      "n": 11
+    },
+    {
+      "code": "RNQ",
+      "horizon": 3,
+      "mae": 19.053131,
+      "wape": 3.810626,
+      "coverage": 0.9,
+      "mean_interval_width": 43.215022,
+      "n": 10
+    },
+    {
+      "code": "RNS",
+      "horizon": 1,
+      "mae": 6.943636,
+      "wape": 1.09723,
+      "coverage": 0.833333,
+      "mean_interval_width": 27.797982,
+      "n": 12
+    },
+    {
+      "code": "RNS",
+      "horizon": 2,
+      "mae": 12.725339,
+      "wape": 2.005713,
+      "coverage": 0.818182,
+      "mean_interval_width": 35.393325,
+      "n": 11
+    },
+    {
+      "code": "RNS",
+      "horizon": 3,
+      "mae": 18.976268,
+      "wape": 2.98369,
+      "coverage": 0.7,
+      "mean_interval_width": 43.0785,
+      "n": 10
+    },
+    {
+      "code": "RNZ",
+      "horizon": 1,
+      "mae": 6.364193,
+      "wape": 1.503945,
+      "coverage": 0.75,
+      "mean_interval_width": 23.954923,
+      "n": 12
+    },
+    {
+      "code": "RNZ",
+      "horizon": 2,
+      "mae": 10.335086,
+      "wape": 2.45383,
+      "coverage": 0.818182,
+      "mean_interval_width": 30.657504,
+      "n": 11
+    },
+    {
+      "code": "RNZ",
+      "horizon": 3,
+      "mae": 13.347221,
+      "wape": 3.186255,
+      "coverage": 0.8,
+      "mean_interval_width": 37.02972,
+      "n": 10
+    },
+    {
+      "code": "RP5",
+      "horizon": 1,
+      "mae": 15.030373,
+      "wape": 2.222606,
+      "coverage": 0.666667,
+      "mean_interval_width": 34.144643,
+      "n": 12
+    },
+    {
+      "code": "RP5",
+      "horizon": 2,
+      "mae": 16.063927,
+      "wape": 2.368358,
+      "coverage": 0.727273,
+      "mean_interval_width": 45.539383,
+      "n": 11
+    },
+    {
+      "code": "RP5",
+      "horizon": 3,
+      "mae": 19.811777,
+      "wape": 2.913925,
+      "coverage": 0.8,
+      "mean_interval_width": 55.082127,
+      "n": 10
+    },
+    {
+      "code": "RPA",
+      "horizon": 1,
+      "mae": 9.505826,
+      "wape": 1.844299,
+      "coverage": 0.833333,
+      "mean_interval_width": 27.095189,
+      "n": 12
+    },
+    {
+      "code": "RPA",
+      "horizon": 2,
+      "mae": 11.355091,
+      "wape": 2.192103,
+      "coverage": 0.818182,
+      "mean_interval_width": 36.37215,
+      "n": 11
+    },
+    {
+      "code": "RPA",
+      "horizon": 3,
+      "mae": 15.627973,
+      "wape": 3.013493,
+      "coverage": 0.8,
+      "mean_interval_width": 45.599651,
+      "n": 10
+    },
+    {
+      "code": "RQ3",
+      "horizon": 1,
+      "mae": 4.01293,
+      "wape": 25.478922,
+      "coverage": 1.0,
+      "mean_interval_width": 17.828847,
+      "n": 12
+    },
+    {
+      "code": "RQ3",
+      "horizon": 2,
+      "mae": 4.627464,
+      "wape": 29.254085,
+      "coverage": 0.818182,
+      "mean_interval_width": 28.12409,
+      "n": 11
+    },
+    {
+      "code": "RQ3",
+      "horizon": 3,
+      "mae": 4.058397,
+      "wape": 25.207433,
+      "coverage": 0.8,
+      "mean_interval_width": 28.507478,
+      "n": 10
+    },
+    {
+      "code": "RQM",
+      "horizon": 1,
+      "mae": 11.103322,
+      "wape": 1.652485,
+      "coverage": 0.666667,
+      "mean_interval_width": 33.159727,
+      "n": 12
+    },
+    {
+      "code": "RQM",
+      "horizon": 2,
+      "mae": 16.259148,
+      "wape": 2.4169,
+      "coverage": 0.636364,
+      "mean_interval_width": 44.5463,
+      "n": 11
+    },
+    {
+      "code": "RQM",
+      "horizon": 3,
+      "mae": 17.148042,
+      "wape": 2.543843,
+      "coverage": 0.7,
+      "mean_interval_width": 55.023362,
+      "n": 10
+    },
+    {
+      "code": "RQW",
+      "horizon": 1,
+      "mae": 6.079913,
+      "wape": 1.396076,
+      "coverage": 0.833333,
+      "mean_interval_width": 22.135683,
+      "n": 12
+    },
+    {
+      "code": "RQW",
+      "horizon": 2,
+      "mae": 8.461025,
+      "wape": 1.943439,
+      "coverage": 0.727273,
+      "mean_interval_width": 28.869654,
+      "n": 11
+    },
+    {
+      "code": "RQW",
+      "horizon": 3,
+      "mae": 11.228505,
+      "wape": 2.581265,
+      "coverage": 0.8,
+      "mean_interval_width": 37.32653,
+      "n": 10
+    },
+    {
+      "code": "RQX",
+      "horizon": 1,
+      "mae": 7.090347,
+      "wape": 3.130396,
+      "coverage": 0.916667,
+      "mean_interval_width": 23.187364,
+      "n": 12
+    },
+    {
+      "code": "RQX",
+      "horizon": 2,
+      "mae": 7.373112,
+      "wape": 3.253278,
+      "coverage": 0.909091,
+      "mean_interval_width": 29.084313,
+      "n": 11
+    },
+    {
+      "code": "RQX",
+      "horizon": 3,
+      "mae": 7.085967,
+      "wape": 3.103796,
+      "coverage": 1.0,
+      "mean_interval_width": 35.698483,
+      "n": 10
+    },
+    {
+      "code": "RR7",
+      "horizon": 1,
+      "mae": 10.525306,
+      "wape": 2.465424,
+      "coverage": 0.666667,
+      "mean_interval_width": 26.289445,
+      "n": 12
+    },
+    {
+      "code": "RR7",
+      "horizon": 2,
+      "mae": 8.703881,
+      "wape": 2.04491,
+      "coverage": 0.818182,
+      "mean_interval_width": 32.874731,
+      "n": 11
+    },
+    {
+      "code": "RR7",
+      "horizon": 3,
+      "mae": 11.031827,
+      "wape": 2.593893,
+      "coverage": 0.9,
+      "mean_interval_width": 38.91456,
+      "n": 10
+    },
+    {
+      "code": "RR8",
+      "horizon": 1,
+      "mae": 31.54476,
+      "wape": 1.977418,
+      "coverage": 0.583333,
+      "mean_interval_width": 47.171585,
+      "n": 12
+    },
+    {
+      "code": "RR8",
+      "horizon": 2,
+      "mae": 34.710068,
+      "wape": 2.176304,
+      "coverage": 0.636364,
+      "mean_interval_width": 66.037072,
+      "n": 11
+    },
+    {
+      "code": "RR8",
+      "horizon": 3,
+      "mae": 43.263152,
+      "wape": 2.709196,
+      "coverage": 0.7,
+      "mean_interval_width": 78.545428,
+      "n": 10
+    },
+    {
+      "code": "RRF",
+      "horizon": 1,
+      "mae": 10.714323,
+      "wape": 2.678581,
+      "coverage": 0.666667,
+      "mean_interval_width": 26.990948,
+      "n": 12
+    },
+    {
+      "code": "RRF",
+      "horizon": 2,
+      "mae": 14.50378,
+      "wape": 3.64167,
+      "coverage": 0.636364,
+      "mean_interval_width": 33.144192,
+      "n": 11
+    },
+    {
+      "code": "RRF",
+      "horizon": 3,
+      "mae": 12.902606,
+      "wape": 3.254125,
+      "coverage": 0.9,
+      "mean_interval_width": 38.731104,
+      "n": 10
+    },
+    {
+      "code": "RRK",
+      "horizon": 1,
+      "mae": 12.470264,
+      "wape": 0.53097,
+      "coverage": 0.75,
+      "mean_interval_width": 41.833974,
+      "n": 12
+    },
+    {
+      "code": "RRK",
+      "horizon": 2,
+      "mae": 16.287041,
+      "wape": 0.693602,
+      "coverage": 0.818182,
+      "mean_interval_width": 52.51131,
+      "n": 11
+    },
+    {
+      "code": "RRK",
+      "horizon": 3,
+      "mae": 15.757472,
+      "wape": 0.670902,
+      "coverage": 0.9,
+      "mean_interval_width": 64.229527,
+      "n": 10
+    },
+    {
+      "code": "RRV",
+      "horizon": 1,
+      "mae": 12.283953,
+      "wape": 2.008002,
+      "coverage": 0.833333,
+      "mean_interval_width": 37.372831,
+      "n": 12
+    },
+    {
+      "code": "RRV",
+      "horizon": 2,
+      "mae": 17.166519,
+      "wape": 2.811251,
+      "coverage": 0.545455,
+      "mean_interval_width": 46.466453,
+      "n": 11
+    },
+    {
+      "code": "RRV",
+      "horizon": 3,
+      "mae": 17.088358,
+      "wape": 2.803208,
+      "coverage": 0.6,
+      "mean_interval_width": 50.642654,
+      "n": 10
+    },
+    {
+      "code": "RTD",
+      "horizon": 1,
+      "mae": 26.832561,
+      "wape": 2.350984,
+      "coverage": 0.666667,
+      "mean_interval_width": 55.033716,
+      "n": 12
+    },
+    {
+      "code": "RTD",
+      "horizon": 2,
+      "mae": 26.144861,
+      "wape": 2.293226,
+      "coverage": 0.727273,
+      "mean_interval_width": 68.773805,
+      "n": 11
+    },
+    {
+      "code": "RTD",
+      "horizon": 3,
+      "mae": 24.672127,
+      "wape": 2.161756,
+      "coverage": 0.7,
+      "mean_interval_width": 77.933754,
+      "n": 10
+    },
+    {
+      "code": "RTE",
+      "horizon": 1,
+      "mae": 10.047993,
+      "wape": 1.389444,
+      "coverage": 0.833333,
+      "mean_interval_width": 35.680741,
+      "n": 12
+    },
+    {
+      "code": "RTE",
+      "horizon": 2,
+      "mae": 12.854169,
+      "wape": 1.781029,
+      "coverage": 0.818182,
+      "mean_interval_width": 44.984738,
+      "n": 11
+    },
+    {
+      "code": "RTE",
+      "horizon": 3,
+      "mae": 20.271784,
+      "wape": 2.817874,
+      "coverage": 0.7,
+      "mean_interval_width": 50.782457,
+      "n": 10
+    },
+    {
+      "code": "RTF",
+      "horizon": 1,
+      "mae": 14.18022,
+      "wape": 1.839397,
+      "coverage": 0.583333,
+      "mean_interval_width": 39.902754,
+      "n": 12
+    },
+    {
+      "code": "RTF",
+      "horizon": 2,
+      "mae": 15.863776,
+      "wape": 2.055377,
+      "coverage": 0.909091,
+      "mean_interval_width": 52.187291,
+      "n": 11
+    },
+    {
+      "code": "RTF",
+      "horizon": 3,
+      "mae": 10.097747,
+      "wape": 1.305968,
+      "coverage": 0.8,
+      "mean_interval_width": 57.757709,
+      "n": 10
+    },
+    {
+      "code": "RTG",
+      "horizon": 1,
+      "mae": 19.466256,
+      "wape": 1.418134,
+      "coverage": 0.666667,
+      "mean_interval_width": 44.394183,
+      "n": 12
+    },
+    {
+      "code": "RTG",
+      "horizon": 2,
+      "mae": 16.885883,
+      "wape": 1.227658,
+      "coverage": 0.818182,
+      "mean_interval_width": 59.290442,
+      "n": 11
+    },
+    {
+      "code": "RTG",
+      "horizon": 3,
+      "mae": 19.762178,
+      "wape": 1.436205,
+      "coverage": 0.8,
+      "mean_interval_width": 70.230361,
+      "n": 10
+    },
+    {
+      "code": "RTH",
+      "horizon": 1,
+      "mae": 10.620062,
+      "wape": 1.193154,
+      "coverage": 0.75,
+      "mean_interval_width": 38.13463,
+      "n": 12
+    },
+    {
+      "code": "RTH",
+      "horizon": 2,
+      "mae": 13.555797,
+      "wape": 1.524992,
+      "coverage": 0.818182,
+      "mean_interval_width": 47.20511,
+      "n": 11
+    },
+    {
+      "code": "RTH",
+      "horizon": 3,
+      "mae": 11.421505,
+      "wape": 1.28722,
+      "coverage": 1.0,
+      "mean_interval_width": 53.334221,
+      "n": 10
+    },
+    {
+      "code": "RTK",
+      "horizon": 1,
+      "mae": 13.593072,
+      "wape": 3.288646,
+      "coverage": 0.5,
+      "mean_interval_width": 26.135715,
+      "n": 12
+    },
+    {
+      "code": "RTK",
+      "horizon": 2,
+      "mae": 14.704075,
+      "wape": 3.555613,
+      "coverage": 0.636364,
+      "mean_interval_width": 32.329957,
+      "n": 11
+    },
+    {
+      "code": "RTK",
+      "horizon": 3,
+      "mae": 13.43237,
+      "wape": 3.234378,
+      "coverage": 0.7,
+      "mean_interval_width": 38.441333,
+      "n": 10
+    },
+    {
+      "code": "RTP",
+      "horizon": 1,
+      "mae": 12.281958,
+      "wape": 1.990324,
+      "coverage": 0.666667,
+      "mean_interval_width": 31.07525,
+      "n": 12
+    },
+    {
+      "code": "RTP",
+      "horizon": 2,
+      "mae": 11.803296,
+      "wape": 1.913578,
+      "coverage": 0.909091,
+      "mean_interval_width": 39.756427,
+      "n": 11
+    },
+    {
+      "code": "RTP",
+      "horizon": 3,
+      "mae": 8.320636,
+      "wape": 1.350533,
+      "coverage": 1.0,
+      "mean_interval_width": 45.242219,
+      "n": 10
+    },
+    {
+      "code": "RTR",
+      "horizon": 1,
+      "mae": 10.911327,
+      "wape": 1.341419,
+      "coverage": 0.833333,
+      "mean_interval_width": 37.830385,
+      "n": 12
+    },
+    {
+      "code": "RTR",
+      "horizon": 2,
+      "mae": 14.831472,
+      "wape": 1.82327,
+      "coverage": 0.909091,
+      "mean_interval_width": 47.908042,
+      "n": 11
+    },
+    {
+      "code": "RTR",
+      "horizon": 3,
+      "mae": 10.398492,
+      "wape": 1.277927,
+      "coverage": 0.8,
+      "mean_interval_width": 53.388356,
+      "n": 10
+    },
+    {
+      "code": "RTX",
+      "horizon": 1,
+      "mae": 5.618844,
+      "wape": 1.057665,
+      "coverage": 1.0,
+      "mean_interval_width": 26.389298,
+      "n": 12
+    },
+    {
+      "code": "RTX",
+      "horizon": 2,
+      "mae": 6.273001,
+      "wape": 1.179942,
+      "coverage": 1.0,
+      "mean_interval_width": 34.409867,
+      "n": 11
+    },
+    {
+      "code": "RTX",
+      "horizon": 3,
+      "mae": 8.078775,
+      "wape": 1.519424,
+      "coverage": 1.0,
+      "mean_interval_width": 41.153262,
+      "n": 10
+    },
+    {
+      "code": "RVJ",
+      "horizon": 1,
+      "mae": 10.687773,
+      "wape": 1.147372,
+      "coverage": 0.916667,
+      "mean_interval_width": 35.051164,
+      "n": 12
+    },
+    {
+      "code": "RVJ",
+      "horizon": 2,
+      "mae": 16.343618,
+      "wape": 1.752923,
+      "coverage": 0.818182,
+      "mean_interval_width": 43.764172,
+      "n": 11
+    },
+    {
+      "code": "RVJ",
+      "horizon": 3,
+      "mae": 17.05986,
+      "wape": 1.828103,
+      "coverage": 0.8,
+      "mean_interval_width": 53.687389,
+      "n": 10
+    },
+    {
+      "code": "RVR",
+      "horizon": 1,
+      "mae": 15.025156,
+      "wape": 2.811068,
+      "coverage": 0.75,
+      "mean_interval_width": 32.730187,
+      "n": 12
+    },
+    {
+      "code": "RVR",
+      "horizon": 2,
+      "mae": 24.708207,
+      "wape": 4.627005,
+      "coverage": 0.545455,
+      "mean_interval_width": 43.300996,
+      "n": 11
+    },
+    {
+      "code": "RVR",
+      "horizon": 3,
+      "mae": 30.422547,
+      "wape": 5.698173,
+      "coverage": 0.5,
+      "mean_interval_width": 44.032181,
+      "n": 10
+    },
+    {
+      "code": "RVV",
+      "horizon": 1,
+      "mae": 7.421026,
+      "wape": 0.794826,
+      "coverage": 0.916667,
+      "mean_interval_width": 37.5434,
+      "n": 12
+    },
+    {
+      "code": "RVV",
+      "horizon": 2,
+      "mae": 12.031005,
+      "wape": 1.291132,
+      "coverage": 0.909091,
+      "mean_interval_width": 48.445409,
+      "n": 11
+    },
+    {
+      "code": "RVV",
+      "horizon": 3,
+      "mae": 14.62859,
+      "wape": 1.57229,
+      "coverage": 0.9,
+      "mean_interval_width": 56.713324,
+      "n": 10
+    },
+    {
+      "code": "RVW",
+      "horizon": 1,
+      "mae": 9.555316,
+      "wape": 2.038467,
+      "coverage": 0.75,
+      "mean_interval_width": 25.667669,
+      "n": 12
+    },
+    {
+      "code": "RVW",
+      "horizon": 2,
+      "mae": 12.251078,
+      "wape": 2.61826,
+      "coverage": 0.818182,
+      "mean_interval_width": 33.930415,
+      "n": 11
+    },
+    {
+      "code": "RVW",
+      "horizon": 3,
+      "mae": 11.599465,
+      "wape": 2.476402,
+      "coverage": 0.9,
+      "mean_interval_width": 38.67945,
+      "n": 10
+    },
+    {
+      "code": "RWA",
+      "horizon": 1,
+      "mae": 11.472119,
+      "wape": 1.11479,
+      "coverage": 0.666667,
+      "mean_interval_width": 41.67779,
+      "n": 12
+    },
+    {
+      "code": "RWA",
+      "horizon": 2,
+      "mae": 13.71288,
+      "wape": 1.334292,
+      "coverage": 0.727273,
+      "mean_interval_width": 49.836705,
+      "n": 11
+    },
+    {
+      "code": "RWA",
+      "horizon": 3,
+      "mae": 14.422208,
+      "wape": 1.406084,
+      "coverage": 1.0,
+      "mean_interval_width": 58.521804,
+      "n": 10
+    },
+    {
+      "code": "RWD",
+      "horizon": 1,
+      "mae": 12.539875,
+      "wape": 1.378513,
+      "coverage": 0.833333,
+      "mean_interval_width": 41.468445,
+      "n": 12
+    },
+    {
+      "code": "RWD",
+      "horizon": 2,
+      "mae": 19.389084,
+      "wape": 2.12918,
+      "coverage": 0.727273,
+      "mean_interval_width": 51.424965,
+      "n": 11
+    },
+    {
+      "code": "RWD",
+      "horizon": 3,
+      "mae": 22.516139,
+      "wape": 2.465361,
+      "coverage": 0.7,
+      "mean_interval_width": 61.043109,
+      "n": 10
+    },
+    {
+      "code": "RWE",
+      "horizon": 1,
+      "mae": 45.432128,
+      "wape": 3.016241,
+      "coverage": 0.5,
+      "mean_interval_width": 59.984364,
+      "n": 12
+    },
+    {
+      "code": "RWE",
+      "horizon": 2,
+      "mae": 57.411903,
+      "wape": 3.802113,
+      "coverage": 0.363636,
+      "mean_interval_width": 76.424739,
+      "n": 11
+    },
+    {
+      "code": "RWE",
+      "horizon": 3,
+      "mae": 41.381687,
+      "wape": 2.726965,
+      "coverage": 0.6,
+      "mean_interval_width": 84.903999,
+      "n": 10
+    },
+    {
+      "code": "RWF",
+      "horizon": 1,
+      "mae": 11.833434,
+      "wape": 1.979111,
+      "coverage": 0.75,
+      "mean_interval_width": 33.198283,
+      "n": 12
+    },
+    {
+      "code": "RWF",
+      "horizon": 2,
+      "mae": 11.597578,
+      "wape": 1.940574,
+      "coverage": 0.727273,
+      "mean_interval_width": 41.731553,
+      "n": 11
+    },
+    {
+      "code": "RWF",
+      "horizon": 3,
+      "mae": 12.053709,
+      "wape": 2.020739,
+      "coverage": 0.9,
+      "mean_interval_width": 41.106345,
+      "n": 10
+    },
+    {
+      "code": "RWG",
+      "horizon": 1,
+      "mae": 6.84777,
+      "wape": 1.270851,
+      "coverage": 0.833333,
+      "mean_interval_width": 29.261027,
+      "n": 12
+    },
+    {
+      "code": "RWG",
+      "horizon": 2,
+      "mae": 7.106118,
+      "wape": 1.318834,
+      "coverage": 1.0,
+      "mean_interval_width": 36.026469,
+      "n": 11
+    },
+    {
+      "code": "RWG",
+      "horizon": 3,
+      "mae": 9.209739,
+      "wape": 1.70994,
+      "coverage": 1.0,
+      "mean_interval_width": 38.616979,
+      "n": 10
+    },
+    {
+      "code": "RWH",
+      "horizon": 1,
+      "mae": 11.782374,
+      "wape": 2.360015,
+      "coverage": 0.75,
+      "mean_interval_width": 30.780033,
+      "n": 12
+    },
+    {
+      "code": "RWH",
+      "horizon": 2,
+      "mae": 15.075139,
+      "wape": 3.026584,
+      "coverage": 0.636364,
+      "mean_interval_width": 40.522523,
+      "n": 11
+    },
+    {
+      "code": "RWH",
+      "horizon": 3,
+      "mae": 16.083599,
+      "wape": 3.240048,
+      "coverage": 0.7,
+      "mean_interval_width": 42.730889,
+      "n": 10
+    },
+    {
+      "code": "RWJ",
+      "horizon": 1,
+      "mae": 7.704902,
+      "wape": 1.317828,
+      "coverage": 0.833333,
+      "mean_interval_width": 27.180134,
+      "n": 12
+    },
+    {
+      "code": "RWJ",
+      "horizon": 2,
+      "mae": 10.219138,
+      "wape": 1.749852,
+      "coverage": 0.727273,
+      "mean_interval_width": 34.058819,
+      "n": 11
+    },
+    {
+      "code": "RWJ",
+      "horizon": 3,
+      "mae": 8.494188,
+      "wape": 1.457229,
+      "coverage": 0.8,
+      "mean_interval_width": 39.433114,
+      "n": 10
+    },
+    {
+      "code": "RWP",
+      "horizon": 1,
+      "mae": 22.58059,
+      "wape": 2.832014,
+      "coverage": 0.75,
+      "mean_interval_width": 38.785633,
+      "n": 12
+    },
+    {
+      "code": "RWP",
+      "horizon": 2,
+      "mae": 22.943193,
+      "wape": 2.880008,
+      "coverage": 0.818182,
+      "mean_interval_width": 49.348788,
+      "n": 11
+    },
+    {
+      "code": "RWP",
+      "horizon": 3,
+      "mae": 25.404837,
+      "wape": 3.192766,
+      "coverage": 0.9,
+      "mean_interval_width": 53.984713,
+      "n": 10
+    },
+    {
+      "code": "RWW",
+      "horizon": 1,
+      "mae": 6.55187,
+      "wape": 1.268718,
+      "coverage": 1.0,
+      "mean_interval_width": 27.1107,
+      "n": 12
+    },
+    {
+      "code": "RWW",
+      "horizon": 2,
+      "mae": 7.533463,
+      "wape": 1.458688,
+      "coverage": 0.818182,
+      "mean_interval_width": 36.250833,
+      "n": 11
+    },
+    {
+      "code": "RWW",
+      "horizon": 3,
+      "mae": 9.613608,
+      "wape": 1.861299,
+      "coverage": 0.9,
+      "mean_interval_width": 42.158196,
+      "n": 10
+    },
+    {
+      "code": "RWY",
+      "horizon": 1,
+      "mae": 11.531982,
+      "wape": 1.74243,
+      "coverage": 0.666667,
+      "mean_interval_width": 32.30482,
+      "n": 12
+    },
+    {
+      "code": "RWY",
+      "horizon": 2,
+      "mae": 15.749412,
+      "wape": 2.382992,
+      "coverage": 0.727273,
+      "mean_interval_width": 43.02355,
+      "n": 11
+    },
+    {
+      "code": "RWY",
+      "horizon": 3,
+      "mae": 17.37233,
+      "wape": 2.625409,
+      "coverage": 0.7,
+      "mean_interval_width": 54.093478,
+      "n": 10
+    },
+    {
+      "code": "RX1",
+      "horizon": 1,
+      "mae": 25.754929,
+      "wape": 1.729002,
+      "coverage": 0.666667,
+      "mean_interval_width": 51.27044,
+      "n": 12
+    },
+    {
+      "code": "RX1",
+      "horizon": 2,
+      "mae": 28.024264,
+      "wape": 1.879562,
+      "coverage": 0.636364,
+      "mean_interval_width": 68.75437,
+      "n": 11
+    },
+    {
+      "code": "RX1",
+      "horizon": 3,
+      "mae": 28.586465,
+      "wape": 1.911115,
+      "coverage": 0.8,
+      "mean_interval_width": 77.767543,
+      "n": 10
+    },
+    {
+      "code": "RXC",
+      "horizon": 1,
+      "mae": 16.860217,
+      "wape": 2.457161,
+      "coverage": 0.75,
+      "mean_interval_width": 38.812325,
+      "n": 12
+    },
+    {
+      "code": "RXC",
+      "horizon": 2,
+      "mae": 23.445789,
+      "wape": 3.437799,
+      "coverage": 0.636364,
+      "mean_interval_width": 50.714777,
+      "n": 11
+    },
+    {
+      "code": "RXC",
+      "horizon": 3,
+      "mae": 31.395625,
+      "wape": 4.625166,
+      "coverage": 0.7,
+      "mean_interval_width": 58.374948,
+      "n": 10
+    },
+    {
+      "code": "RXF",
+      "horizon": 1,
+      "mae": 10.978945,
+      "wape": 1.146427,
+      "coverage": 0.833333,
+      "mean_interval_width": 38.072184,
+      "n": 12
+    },
+    {
+      "code": "RXF",
+      "horizon": 2,
+      "mae": 12.440207,
+      "wape": 1.299423,
+      "coverage": 0.818182,
+      "mean_interval_width": 49.174769,
+      "n": 11
+    },
+    {
+      "code": "RXF",
+      "horizon": 3,
+      "mae": 16.470845,
+      "wape": 1.715713,
+      "coverage": 1.0,
+      "mean_interval_width": 59.793662,
+      "n": 10
+    },
+    {
+      "code": "RXK",
+      "horizon": 1,
+      "mae": 10.14953,
+      "wape": 2.033295,
+      "coverage": 0.75,
+      "mean_interval_width": 28.946099,
+      "n": 12
+    },
+    {
+      "code": "RXK",
+      "horizon": 2,
+      "mae": 11.988516,
+      "wape": 2.406454,
+      "coverage": 0.818182,
+      "mean_interval_width": 36.554663,
+      "n": 11
+    },
+    {
+      "code": "RXK",
+      "horizon": 3,
+      "mae": 14.085171,
+      "wape": 2.834038,
+      "coverage": 0.7,
+      "mean_interval_width": 39.892069,
+      "n": 10
+    },
+    {
+      "code": "RXL",
+      "horizon": 1,
+      "mae": 11.433018,
+      "wape": 1.661776,
+      "coverage": 0.833333,
+      "mean_interval_width": 33.71378,
+      "n": 12
+    },
+    {
+      "code": "RXL",
+      "horizon": 2,
+      "mae": 14.141065,
+      "wape": 2.057835,
+      "coverage": 0.818182,
+      "mean_interval_width": 45.028313,
+      "n": 11
+    },
+    {
+      "code": "RXL",
+      "horizon": 3,
+      "mae": 13.159068,
+      "wape": 1.916555,
+      "coverage": 0.8,
+      "mean_interval_width": 53.421618,
+      "n": 10
+    },
+    {
+      "code": "RXN",
+      "horizon": 1,
+      "mae": 14.560703,
+      "wape": 1.975449,
+      "coverage": 0.583333,
+      "mean_interval_width": 36.230775,
+      "n": 12
+    },
+    {
+      "code": "RXN",
+      "horizon": 2,
+      "mae": 17.720451,
+      "wape": 2.410648,
+      "coverage": 0.727273,
+      "mean_interval_width": 47.754261,
+      "n": 11
+    },
+    {
+      "code": "RXN",
+      "horizon": 3,
+      "mae": 18.880334,
+      "wape": 2.576465,
+      "coverage": 0.9,
+      "mean_interval_width": 54.656824,
+      "n": 10
+    },
+    {
+      "code": "RXP",
+      "horizon": 1,
+      "mae": 17.698378,
+      "wape": 2.346746,
+      "coverage": 0.666667,
+      "mean_interval_width": 40.630888,
+      "n": 12
+    },
+    {
+      "code": "RXP",
+      "horizon": 2,
+      "mae": 16.093646,
+      "wape": 2.131865,
+      "coverage": 0.727273,
+      "mean_interval_width": 50.391298,
+      "n": 11
+    },
+    {
+      "code": "RXP",
+      "horizon": 3,
+      "mae": 11.970164,
+      "wape": 1.582518,
+      "coverage": 0.9,
+      "mean_interval_width": 55.121401,
+      "n": 10
+    },
+    {
+      "code": "RXQ",
+      "horizon": 1,
+      "mae": 7.556554,
+      "wape": 2.070289,
+      "coverage": 0.666667,
+      "mean_interval_width": 26.558884,
+      "n": 12
+    },
+    {
+      "code": "RXQ",
+      "horizon": 2,
+      "mae": 10.188055,
+      "wape": 2.798916,
+      "coverage": 0.727273,
+      "mean_interval_width": 33.412237,
+      "n": 11
+    },
+    {
+      "code": "RXQ",
+      "horizon": 3,
+      "mae": 12.729974,
+      "wape": 3.518511,
+      "coverage": 0.8,
+      "mean_interval_width": 36.423777,
+      "n": 10
+    },
+    {
+      "code": "RXR",
+      "horizon": 1,
+      "mae": 11.027951,
+      "wape": 1.583717,
+      "coverage": 0.583333,
+      "mean_interval_width": 32.501001,
+      "n": 12
+    },
+    {
+      "code": "RXR",
+      "horizon": 2,
+      "mae": 13.787632,
+      "wape": 1.984091,
+      "coverage": 0.727273,
+      "mean_interval_width": 40.380956,
+      "n": 11
+    },
+    {
+      "code": "RXR",
+      "horizon": 3,
+      "mae": 15.662076,
+      "wape": 2.258085,
+      "coverage": 0.8,
+      "mean_interval_width": 51.768685,
+      "n": 10
+    },
+    {
+      "code": "RXW",
+      "horizon": 1,
+      "mae": 13.506469,
+      "wape": 1.781856,
+      "coverage": 0.666667,
+      "mean_interval_width": 36.585717,
+      "n": 12
+    },
+    {
+      "code": "RXW",
+      "horizon": 2,
+      "mae": 20.43684,
+      "wape": 2.6968,
+      "coverage": 0.636364,
+      "mean_interval_width": 44.856862,
+      "n": 11
+    },
+    {
+      "code": "RXW",
+      "horizon": 3,
+      "mae": 29.022291,
+      "wape": 3.826779,
+      "coverage": 0.5,
+      "mean_interval_width": 51.008746,
+      "n": 10
+    },
+    {
+      "code": "RYJ",
+      "horizon": 1,
+      "mae": 19.001157,
+      "wape": 2.005928,
+      "coverage": 0.583333,
+      "mean_interval_width": 38.896311,
+      "n": 12
+    },
+    {
+      "code": "RYJ",
+      "horizon": 2,
+      "mae": 26.311511,
+      "wape": 2.774678,
+      "coverage": 0.545455,
+      "mean_interval_width": 49.963708,
+      "n": 11
+    },
+    {
+      "code": "RYJ",
+      "horizon": 3,
+      "mae": 24.944047,
+      "wape": 2.626519,
+      "coverage": 0.6,
+      "mean_interval_width": 58.550089,
+      "n": 10
+    },
+    {
+      "code": "RYR",
+      "horizon": 1,
+      "mae": 19.262993,
+      "wape": 1.158154,
+      "coverage": 0.833333,
+      "mean_interval_width": 47.660501,
+      "n": 12
+    },
+    {
+      "code": "RYR",
+      "horizon": 2,
+      "mae": 34.837721,
+      "wape": 2.090301,
+      "coverage": 0.636364,
+      "mean_interval_width": 63.735902,
+      "n": 11
+    },
+    {
+      "code": "RYR",
+      "horizon": 3,
+      "mae": 45.591173,
+      "wape": 2.727887,
+      "coverage": 0.5,
+      "mean_interval_width": 73.923303,
+      "n": 10
+    }
+  ],
+  "by_horizon": [
+    {
+      "horizon": 1,
+      "model": "lightgbm",
+      "mae": 12.507539,
+      "wape": 1.674239,
+      "coverage": 0.758403,
+      "mean_interval_width": 33.781877,
+      "n": 1428
+    },
+    {
+      "horizon": 2,
+      "model": "lightgbm",
+      "mae": 15.562223,
+      "wape": 2.084424,
+      "coverage": 0.762414,
+      "mean_interval_width": 43.454594,
+      "n": 1309
+    },
+    {
+      "horizon": 3,
+      "model": "lightgbm",
+      "mae": 17.119447,
+      "wape": 2.293359,
+      "coverage": 0.794118,
+      "mean_interval_width": 50.558747,
+      "n": 1190
+    }
+  ],
+  "winter": [
+    {
+      "period": "other",
+      "horizon": 1,
+      "mae": 11.755375,
+      "wape": 1.580553,
+      "coverage": 0.771242,
+      "mean_interval_width": 31.991733,
+      "n": 1071
+    },
+    {
+      "period": "other",
+      "horizon": 2,
+      "mae": 15.135942,
+      "wape": 2.037957,
+      "coverage": 0.760504,
+      "mean_interval_width": 41.996036,
+      "n": 952
+    },
+    {
+      "period": "other",
+      "horizon": 3,
+      "mae": 16.689974,
+      "wape": 2.249388,
+      "coverage": 0.797119,
+      "mean_interval_width": 49.324859,
+      "n": 833
+    },
+    {
+      "period": "winter",
+      "horizon": 1,
+      "mae": 14.76403,
+      "wape": 1.950385,
+      "coverage": 0.719888,
+      "mean_interval_width": 39.152308,
+      "n": 357
+    },
+    {
+      "period": "winter",
+      "horizon": 2,
+      "mae": 16.698974,
+      "wape": 2.205998,
+      "coverage": 0.767507,
+      "mean_interval_width": 47.344083,
+      "n": 357
+    },
+    {
+      "period": "winter",
+      "horizon": 3,
+      "mae": 18.121549,
+      "wape": 2.393926,
+      "coverage": 0.787115,
+      "mean_interval_width": 53.437817,
+      "n": 357
+    }
+  ],
+  "selection": [
+    {
+      "horizon": 1,
+      "model": "lightgbm",
+      "development_mae": 11.772251
+    },
+    {
+      "horizon": 2,
+      "model": "lightgbm",
+      "development_mae": 15.470241
+    },
+    {
+      "horizon": 3,
+      "model": "lightgbm",
+      "development_mae": 17.985915
+    }
+  ],
+  "primary_metric": "MAE (beds)",
+  "wape_unit": "percent",
+  "coverage_unit": "fraction",
+  "winter_months": [
+    12,
+    1,
+    2
+  ],
+  "aggregate": {
+    "mae": 14.923315,
+    "wape": 1.998493,
+    "coverage": 0.770563,
+    "mean_interval_width": 42.090016,
+    "n": 3927
+  }
+}

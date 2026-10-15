@@ -1,0 +1,351 @@
+{
+  "publisher": "NHS England",
+  "dataset": "UEC bed availability and occupancy",
+  "source_url": "https://www.england.nhs.uk/statistics/statistical-work-areas/bed-availability-and-occupancy/critical-care-and-general-acute-beds-urgent-and-emergency-care-daily-situation-reports/",
+  "license": "Open Government Licence v3.0",
+  "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: NHS England.",
+  "retrieved_date": "2026-10-14",
+  "data_start": "2022-04-01",
+  "data_end": "2026-03-01",
+  "classification": "Public aggregate administrative data",
+  "vintage_note": "Latest revised publications available when retrieved, not original point-in-time vintages. Retrospective monthly-observation simulation.",
+  "files": [
+    {
+      "month": "2022-04-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2022/05/202204-April-2022-sitrep-data-FINAL.xlsx",
+      "filename": "202204-April-2022-sitrep-data-FINAL.xlsx",
+      "sha256": "dca31453d29cb62dfe30548e438ce0e2c95cf4818c31e0bbcf44034ad246dd3b",
+      "bytes": 52756
+    },
+    {
+      "month": "2022-05-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2022/06/202205-May-2022-sitrep-data-FINAL.xlsx",
+      "filename": "202205-May-2022-sitrep-data-FINAL.xlsx",
+      "sha256": "cb0ea3b9d1b2f96affc790fce82e39aa10033793f99694025f68d260ed8726a7",
+      "bytes": 60413
+    },
+    {
+      "month": "2022-06-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2022/07/202206-June-2022-sitrep-data-FINAL.xlsx",
+      "filename": "202206-June-2022-sitrep-data-FINAL.xlsx",
+      "sha256": "9952286f73e8a978aad09610b35f78f60bca7a8da284abaf92fbd7389bcba807",
+      "bytes": 58028
+    },
+    {
+      "month": "2022-07-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2022/08/202207-July-2022-sitrep-data-FINAL.xlsx",
+      "filename": "202207-July-2022-sitrep-data-FINAL.xlsx",
+      "sha256": "093e7a1bcf73769dff13b5459dacca272d32bdfe951b0f92e9ebc507f051c46d",
+      "bytes": 61295
+    },
+    {
+      "month": "2022-08-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2022/09/202208-August-2022-sitrep-data-FINAL.xlsx",
+      "filename": "202208-August-2022-sitrep-data-FINAL.xlsx",
+      "sha256": "f46187854771b70505f5e595d9cd182713a566090ed2ccb2dc729f3dfb1ea5a3",
+      "bytes": 61516
+    },
+    {
+      "month": "2022-09-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2022/10/202209-September-2022-sitrep-data-FINAL.xlsx",
+      "filename": "202209-September-2022-sitrep-data-FINAL.xlsx",
+      "sha256": "ff7ca411ace8ba03551f78d0eb4aab4e3b986892bd18d911aafdbdc2bcd9add8",
+      "bytes": 60425
+    },
+    {
+      "month": "2022-10-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2022/12/202210-October-2022-sitrep-data-FINAL-with-covid-voids.xlsx",
+      "filename": "202210-October-2022-sitrep-data-FINAL-with-covid-voids.xlsx",
+      "sha256": "1294e2213258a07a454ffb13b7681fabacacc5e85dde6f75f84dbb3f6c388598",
+      "bytes": 70585
+    },
+    {
+      "month": "2022-11-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2022/12/202211-November-2022-sitrep-data-FINAL.xlsx",
+      "filename": "202211-November-2022-sitrep-data-FINAL.xlsx",
+      "sha256": "1f93246c4db317810bed3b36b826e88fe613e1717b6fc5e21dc6d32a31ca8425",
+      "bytes": 69781
+    },
+    {
+      "month": "2022-12-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2023/01/202212-December-2022-sitrep-data-FINAL.xlsx",
+      "filename": "202212-December-2022-sitrep-data-FINAL.xlsx",
+      "sha256": "920eb98af16f818a619f7143dcdd6f2a8342692dd635ed079f9839742e72c4a6",
+      "bytes": 70547
+    },
+    {
+      "month": "2023-01-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2023/02/202301-January-2023-sitrep-data-FINAL.xlsx",
+      "filename": "202301-January-2023-sitrep-data-FINAL.xlsx",
+      "sha256": "b10f9c9c26d48cfec591ec887e724123ac328672e3b694433cac511d847c9631",
+      "bytes": 70211
+    },
+    {
+      "month": "2023-02-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2023/03/202302-February-2023-sitrep-data-FINAL.xlsx",
+      "filename": "202302-February-2023-sitrep-data-FINAL.xlsx",
+      "sha256": "9a0849f05a1a11d5d248296f640d8d30bf05770e69881a51749c97065e0afbf3",
+      "bytes": 69844
+    },
+    {
+      "month": "2023-03-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2023/08/202303-March-2023-sitrep-data-FINAL.xlsx",
+      "filename": "202303-March-2023-sitrep-data-FINAL.xlsx",
+      "sha256": "48c4b545947f186a73ce24cce8470d121d8a614e7f405900a0742be45be3e02c",
+      "bytes": 75900
+    },
+    {
+      "month": "2023-04-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2023/05/202304-April-2023-sitrep-data-FINAL.xlsx",
+      "filename": "202304-April-2023-sitrep-data-FINAL.xlsx",
+      "sha256": "276e122be369c56ba0062d6a420995c298d54562be417ab2c51965f28669709b",
+      "bytes": 69468
+    },
+    {
+      "month": "2023-05-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2023/06/202305-May-2023-sitrep-data-FINAL.xlsx",
+      "filename": "202305-May-2023-sitrep-data-FINAL.xlsx",
+      "sha256": "0fd4613fbbc7346defb81fe7d2137d71f0b4c73b771be40d36980d2b7b9f1837",
+      "bytes": 70010
+    },
+    {
+      "month": "2023-06-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2023/08/202306-June-2023-sitrep-data-FINAL.xlsx",
+      "filename": "202306-June-2023-sitrep-data-FINAL.xlsx",
+      "sha256": "0f738c47573695b06d27e7ae1a2eb391989d9fc7e56fc922199d92662a075a6d",
+      "bytes": 70368
+    },
+    {
+      "month": "2023-07-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2023/08/202307-July-2023-sitrep-data-FINAL.xlsx",
+      "filename": "202307-July-2023-sitrep-data-FINAL.xlsx",
+      "sha256": "cefbcacdc9a09b178edee4f7e7f62d637fad03e17a2622535057ff2eb4cda7a3",
+      "bytes": 73363
+    },
+    {
+      "month": "2023-08-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/202308-August-2023-sitrep-data-FINAL-revised-1.xlsx",
+      "filename": "202308-August-2023-sitrep-data-FINAL-revised-1.xlsx",
+      "sha256": "3b3cc416f398f1f443ac02873a198f18ed56870331f098568a76a6a306276b45",
+      "bytes": 143431
+    },
+    {
+      "month": "2023-09-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/202309-September-2023-sitrep-data-FINAL-revised-1.xlsx",
+      "filename": "202309-September-2023-sitrep-data-FINAL-revised-1.xlsx",
+      "sha256": "89cdeeb8c4f9b46bbc7db79b2dbd104ced145493faa43ee85d42240ca33688b0",
+      "bytes": 136048
+    },
+    {
+      "month": "2023-10-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/202310-October-2023-sitrep-data-FINAL-revised-1.xlsx",
+      "filename": "202310-October-2023-sitrep-data-FINAL-revised-1.xlsx",
+      "sha256": "2fc63f596767510f0a400848b0d8d71da5fcb3955d430f1ae2397249f37184ce",
+      "bytes": 138440
+    },
+    {
+      "month": "2023-11-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/202311-November-2023-sitrep-data-FINAL-revised-1.xlsx",
+      "filename": "202311-November-2023-sitrep-data-FINAL-revised-1.xlsx",
+      "sha256": "a4c9c62f7b2df2fdd31846d5cea008b02c18e78d1f170b20faf321ce603e2ecb",
+      "bytes": 137793
+    },
+    {
+      "month": "2023-12-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/202312-December-2023-sitrep-data-FINAL-revised-1.xlsx",
+      "filename": "202312-December-2023-sitrep-data-FINAL-revised-1.xlsx",
+      "sha256": "1d3759097dc68a5a99ded4a60181261cb79e1988623b306c1b274d8b9fb454f2",
+      "bytes": 136868
+    },
+    {
+      "month": "2024-01-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/202401-January-2024-sitrep-data-FINAL-revised-1.xlsx",
+      "filename": "202401-January-2024-sitrep-data-FINAL-revised-1.xlsx",
+      "sha256": "95d134b60508207477bd0066bc8570d2364984b75fb52422a05fa7790d43993a",
+      "bytes": 133383
+    },
+    {
+      "month": "2024-02-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/202402-February-2024-sitrep-data-FINAL-revised-1.xlsx",
+      "filename": "202402-February-2024-sitrep-data-FINAL-revised-1.xlsx",
+      "sha256": "6e8bd23cd5b3c71f4f6c9878b5fdee71d455956ec5c6929c4ad9cca543fbcbef",
+      "bytes": 134110
+    },
+    {
+      "month": "2024-03-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/202403-March-2024-sitrep-data-FINAL-revised-1.xlsx",
+      "filename": "202403-March-2024-sitrep-data-FINAL-revised-1.xlsx",
+      "sha256": "b67a484be222cf18df8c3654bd3bcac4b989c6c187658663b6bfeedc7a0b37ad",
+      "bytes": 135056
+    },
+    {
+      "month": "2024-04-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/06/202404-April-2024-sitrep-data-FINAL-revised.csv",
+      "filename": "202404-April-2024-sitrep-data-FINAL-revised.csv",
+      "sha256": "3057850d10509f89ece00b59c57dd043ee570a8ce8b5ec3e031f307993057d95",
+      "bytes": 1519208
+    },
+    {
+      "month": "2024-05-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/06/202405-May-2024-sitrep-data-FINAL-revised.csv",
+      "filename": "202405-May-2024-sitrep-data-FINAL-revised.csv",
+      "sha256": "11d596eaa32b46b85f2a4727c82716d6cba18a28abaf3f43dab6e07110e0fcc4",
+      "bytes": 1519177
+    },
+    {
+      "month": "2024-06-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/202406-June-2024-beds-sitrep-data-FINAL-revised.csv",
+      "filename": "202406-June-2024-beds-sitrep-data-FINAL-revised.csv",
+      "sha256": "5fec32d407c0b79f26216793025d5ce35332bb74ed7a3fc499ff48acd71d1168",
+      "bytes": 1472641
+    },
+    {
+      "month": "2024-07-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/06/202407-July-2024-beds-sitrep-data-FINAL-revised.csv",
+      "filename": "202407-July-2024-beds-sitrep-data-FINAL-revised.csv",
+      "sha256": "fc82ded2f13d2f1bf2f80ec160567930b13fab555c8dced0647c437d91c3b160",
+      "bytes": 1519177
+    },
+    {
+      "month": "2024-08-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/06/202408-August-2024-beds-sitrep-data-FINAL-revised.csv",
+      "filename": "202408-August-2024-beds-sitrep-data-FINAL-revised.csv",
+      "sha256": "880febc1bd5d47bc52e9e0ec5b3e351e3fab30a1ca76dc8ddadf355dec61ae71",
+      "bytes": 1519134
+    },
+    {
+      "month": "2024-09-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/06/202409-September-2024-beds-sitrep-data-FINAL-revised.csv",
+      "filename": "202409-September-2024-beds-sitrep-data-FINAL-revised.csv",
+      "sha256": "84e1739592431282674d0b98fc02dbcf520f8d8ac07893939108f43c75c74525",
+      "bytes": 1519112
+    },
+    {
+      "month": "2024-10-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/06/202410-October-2024-beds-sitrep-data-FINAL-revised.csv",
+      "filename": "202410-October-2024-beds-sitrep-data-FINAL-revised.csv",
+      "sha256": "d3cceb830c610f6678d7f12b6774bfc131c4841e96585b52150caf6691579fa1",
+      "bytes": 1519466
+    },
+    {
+      "month": "2024-11-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/06/202411-November-2024-beds-sitrep-data-FINAL-revised.csv",
+      "filename": "202411-November-2024-beds-sitrep-data-FINAL-revised.csv",
+      "sha256": "7b5cbb4aea239efed3cf21ac9b85a42928551557cf30989553fb54de14a08005",
+      "bytes": 1519335
+    },
+    {
+      "month": "2024-12-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/06/202412-December-2024-beds-sitrep-data-FINAL-revised.csv",
+      "filename": "202412-December-2024-beds-sitrep-data-FINAL-revised.csv",
+      "sha256": "60015e9fa3839f1aa22e0373635b769fb40417c37dde33817b38d517baba1072",
+      "bytes": 1446541
+    },
+    {
+      "month": "2025-01-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/06/202501-January-2025-beds-sitrep-data-FINAL-revised.csv",
+      "filename": "202501-January-2025-beds-sitrep-data-FINAL-revised.csv",
+      "sha256": "eed5d19ea7bd3a11c41b88a286a075d2d337b7d4781fd93e6e066242511bfdc4",
+      "bytes": 1447602
+    },
+    {
+      "month": "2025-02-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/06/202502-February-2025-beds-sitrep-data-FINAL-revised.csv",
+      "filename": "202502-February-2025-beds-sitrep-data-FINAL-revised.csv",
+      "sha256": "83a49add51518763ca532907841ebce58dac2ba8a8a4c4ee66dacb2693703210",
+      "bytes": 1447657
+    },
+    {
+      "month": "2025-03-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202503-March-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202503-March-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "233d0ec070643f881738df83e872b08c06eb948168217019cb245acf3c5f4dcd",
+      "bytes": 1464809
+    },
+    {
+      "month": "2025-04-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202504-April-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202504-April-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "cf337f88cf02766176d25c178d45d1c907ac1c672d670437a220f4de5ad4b3d7",
+      "bytes": 1464746
+    },
+    {
+      "month": "2025-05-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202505-May-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202505-May-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "05a573bd51b4554e3ef7a8e33285be58b7e6995c505e633077811687c61025e8",
+      "bytes": 1464699
+    },
+    {
+      "month": "2025-06-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202506-June-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202506-June-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "29ac086d23199d7200c324883e039898dfe5a47b168ddc0d98f7649b6abd7af8",
+      "bytes": 1464667
+    },
+    {
+      "month": "2025-07-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202507-July-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202507-July-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "46d68e15792ce59439f1e94cf93344b89ca8e77d5b030ab2702ee17d6fe6157d",
+      "bytes": 1464650
+    },
+    {
+      "month": "2025-08-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202508-August-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202508-August-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "7cdc7bb8efd234c427f621d4bf2012fe4f0a63e91c2f3b105f71d57a6533fa46",
+      "bytes": 1464598
+    },
+    {
+      "month": "2025-09-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202509-September-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202509-September-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "aff1da3d04d1474ede27ccbe5a6f4f0425e9d1e898f19392f5ace015430f2410",
+      "bytes": 1464637
+    },
+    {
+      "month": "2025-10-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202510-October-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202510-October-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "54440961d0ca65c3a942e1fcdc5fac39e9a70779ef5bc640d8f72e0420ddea5f",
+      "bytes": 1464709
+    },
+    {
+      "month": "2025-11-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202511-November-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202511-November-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "3ce07aa03492db1fcb576cae2194f3680d8d9c4a305562ba0b2606401624ea06",
+      "bytes": 1464690
+    },
+    {
+      "month": "2025-12-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202512-December-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202512-December-2025-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "d3d8dacaf07288d45124c68d8a048fd7911641d79590d699278a04d2bf603d74",
+      "bytes": 1464676
+    },
+    {
+      "month": "2026-01-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202601-January-2026-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202601-January-2026-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "754f34019892cea39ebc7d247bc724343745c23254031f77212423569077001e",
+      "bytes": 1464782
+    },
+    {
+      "month": "2026-02-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202602-February-2026-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202602-February-2026-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "02758a99bdef73e61373f813a1e2d014cee511cf3bf4fbf444ae89679393ed14",
+      "bytes": 1464778
+    },
+    {
+      "month": "2026-03-01",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/202603-March-2026-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "filename": "202603-March-2026-beds-sitrep-data-finalversion-v2-CSV.csv",
+      "sha256": "0bc1486d8872a216908dc64b28c6e062c21c660f9f7e5a831af5b10c569ad1f6",
+      "bytes": 1468495
+    }
+  ]
+}
