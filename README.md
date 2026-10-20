@@ -166,7 +166,5 @@ release. No patient records, paid APIs, or cloud services are required.
 - [Benchmark report](docs/benchmark.md) and [model card](docs/model-card.md)
 - [API contract](docs/api.md)
 - [Release verification](docs/verification.md)
-- [Interview walkthrough](docs/interview-walkthrough.md)
-- [GitHub publication guide](docs/publishing.md)
 - [Data attribution](DATA_LICENSE.md) and [MIT source licence](LICENSE)
 
